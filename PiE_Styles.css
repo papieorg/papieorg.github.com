@@ -1,0 +1,471 @@
+@charset
+"utf-8"
+;
+
+a:link {
+    color: #3B3B3B;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1F408B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active {
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #3B3B3B;
+    text-decoration: none;
+
+}
+
+#table {
+    border-collapse: collapse;
+}
+
+#table td {
+    border: 1px solid #999;
+    padding: 2px;
+}
+
+#table th {
+    border: 1px solid #999;
+    padding: 2px;
+}
+
+.body9 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #3B3B3B;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+
+.body10 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #3B3B3B;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.bold9blue {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.78em;
+    font-weight: bold;
+    color: #1F408B;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+.bold9gray {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.72em;
+    font-weight: bold;
+    color: #3B3B3B;
+    line-height: 1.64em;
+    text-decoration: none;
+}
+
+/*     remove to see if it's being used??
+.bold9green {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+    color: #53AC38;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+*/
+
+.bold10blue {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #1F408B;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+.bold10ltblue {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #2A7B8B;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+.bold10turq {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #006CAF;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+.bold10green {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #53AC38;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+.bold10orange {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #E96F23;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+.bold10gray {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #3B3B3B;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+/*
+
+.bold14orange {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #E96F23;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+*/
+
+.insetSub10 {
+    margin-top: 0px;
+    margin-right: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    color: #3B3B3B;
+    text-decoration: none
+}
+
+.insetSub12 {
+    margin-top: 0px;
+    margin-right: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: #3B3B3B;
+    text-decoration: none
+}
+
+.inset18 {
+    margin-left: 18px;
+    margin-top: 0px;
+    margin-right: 18px;
+    margin-bottom: 0px;
+    color: #3B3B3B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+    text-align: left;
+}
+
+.link_blueboldDot:link {
+    color: #1F408B;
+    text-decoration: none;
+}
+
+.link_blueboldDot:hover {
+    color: #333333;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #CECECF;
+}
+
+.link_blueboldDot:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+.link_blueboldDot:visited {
+    color: #1F408B;
+    text-decoration: none;
+}
+
+.link_GrayDot:link {
+    color: #333333;
+    text-decoration: none;
+}
+
+.link_GrayDot:hover {
+    color: #1F408B;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #CECECF;
+}
+
+.link_GrayDot:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+.link_GrayDot:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+
+
+.footer9 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #626263;
+    text-decoration: none;
+}
+
+.link_footer:link {
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.link_footer:hover {
+    color: #1F408B;
+    font-weight: 600;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #CECECF;
+}
+
+.link_footer:active {
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.link_footer:visited {
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.intro9 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 125%;
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.intro10 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 160%;
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.quote10 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+    line-height: 160%;
+    color: #1F408B;
+    text-decoration: none;
+}
+
+.quote10gray {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+    line-height: 160%;
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.subBlue18 {
+    color: #1F408B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+    text-decoration: none
+}
+
+.subBlue16 {
+    color: #1F408B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    text-decoration: none
+}
+
+.subBlue14 {
+    color: #1F408B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-decoration: none
+}
+
+.subBlue12 {
+    color: #1f408b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none
+}
+
+/*
+
+.subBlue22 {
+    color: #1f497d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10pt
+}
+*/
+
+.subGreen14 {
+    color: #53AC38;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-decoration: none
+}
+
+.subLtBlue12 {
+    color: #5a78b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none
+}
+
+.subOrange12 {
+    color: #E96F23;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none
+}
+
+.subGreen12 {
+    color: #53AC38;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none
+}
+
+.subGray12 {
+    color: #3B3B3B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none
+}
+
+.subGray10 {
+    color: #626263;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    text-decoration: none
+}
+
+.whitebold {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 9pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.whitequote {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.whitetext {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+#FooterL {
+    margin-left: 14px;
+}
+
+#FooterR {
+    margin-right: 14px;
+}
+
+#Bar01 {
+    height: 100px;
+    width: 960px;
+    visibility: visible;
+    z-index: 10;
+}
+
+#Bar02 {
+    height: 144px;
+    width: 960px;
+    visibility: visible;
+    z-index: 20;
+}
+
+#Bar03 {
+    height: 32px;
+    width: 960px;
+    visibility: visible;
+    z-index: 2;
+}
+
+#Bar04 {
+    width: 960px;
+    visibility: visible;
+    z-index: 40;
+}
+
+#Bar05 {
+    height: 48px;
+    width: 960px;
+    visibility: visible;
+    z-index: 30;
+}
+
+#LeftBox {
+    height: 100%;
+    width: 179px;
+    visibility: visible;
+    border-right-color: #626263;
+    border-right-style: inset;
+    border-right-width: thin;
+}
+
+.style2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #1f497d;
+}
+
+}
