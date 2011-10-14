@@ -1,0 +1,294 @@
+
+
+
+/* CSS Document */
+
+html {overflow-y: hidden;}
+
+.defaultSkin table {
+    background-color: transparent !important;
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+div.mceToolbar {
+    width: 100% !important;
+}
+
+div.mceExternalToolbar {
+    display: block !important;
+    position: absolute !important;
+    width: 100% !important;
+    z-index: 1;
+}
+
+.mceExternalToolbar {
+    display: block !important;
+    position: absolute !important;
+    top: -58px;
+    left: -1px;
+    width: 100% !important;
+}
+
+.mceExternalClose {
+    display: none !important;
+}
+
+div.mceExternalToolbar > table {
+    width: 100% !important;
+    background: #F0F0EE !important;
+    border: 1px solid #78808B !important;
+}
+
+.defaultSkin .mceToolbar {
+    background: #F0F0EE !important;
+}
+
+.defaultSkin .mceMenu {
+    background: #F0F0EE !important;
+}
+
+.defaultSkin .mceDropDown {
+    background: #F0F0EE !important;
+}
+
+.defaultSkin table {
+    background-color: transparent !important;
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.defaultSkin table td {
+    vertical-align: top !important;
+    height: auto !important;
+}
+table.mceLayout {
+    height: auto !important;
+}
+
+iframe {
+    background-color: transparent !important;
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+        display: inline !important;
+
+}
+
+.defaultSkin .mceLayout {
+    border: 1px dotted #ff0000 !important;
+}
+
+.mceColorSplitMenu {
+    background: none repeat scroll 0 0 #FFFFFF !important
+}
+
+.eve-ced-tb-handle {
+    margin-left: 10px;
+    width: 99%;
+    background-image: url('images/ced_tb_handle.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: move;
+}
+
+/* ----BUTTONS -----------------------------------*/
+/* secondary and non-submit page actions */
+body input.vebtn-secondary {
+               color: #404040;
+			   font: Arial, helvetica, sans-serif;
+				background-color: #e5e5e5; background-image: url('https://imgssl.constantcontact.com/ui/images1/visualeditor/ab_inactive.gif'); background-repeat: no-repeat;
+               font-size: 11px;
+			   border: 1px solid #a6a6a6;
+			   margin: 0px;
+               padding: 2px;
+			   }
+
+/* primary page actions */
+
+body input.vebtn-primary {
+               color: #333333;
+			   font-family: Arial, Helvetica, sans-serif;
+			   background-color: #FBC34C; background-image: url('https://imgssl.constantcontact.com/ui/images1/visualeditor/ab_active.gif'); background-repeat: no-repeat;
+               font-size: 11px;
+			   border: 1px solid #FAB41E;
+			   margin: 0px;
+               padding: 2px;
+			   }
+
+body input.vebtn-primary-disabled {font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #a6a6a6;
+	background: #e5e5e5 url(https://imgssl.constantcontact.com/ui/images1/visualeditor/ab_inactive.gif) no-repeat;
+    font-size: 11px; border: 1px solid #CCCCCC; margin: 0px;
+    padding: 2px; background-position: 0%
+}
+
+/* -- STYLES FOR WITHIN A CAMPAIGN or SURVEY -------- */
+
+.ve-edit-title {
+    background: url(https://imgssl.constantcontact.com/ui/images1/visualeditor/ve_title_bkgrd.gif) no-repeat;
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+.ve-edit-buttons {
+	/*
+    background: #FFFFFF;
+	padding: 2px 2px 2px 5px;
+	border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    */
+}
+.ve-edit-buttons-code-view {
+	background: #FFFFFF;
+	padding: 2px 2px 2px 5px;
+	border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+.ve-edit-pagebreak {
+	color: #666666;
+	background: #DDDDDD;
+	padding: 4px 5px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.ve-edit-midcontent {
+	background: #FFFFFF;
+	padding: 2px 5px;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+
+.insert-bar  {
+text-align: left;
+font-weight: bold;
+color: #000000;
+background-repeat: repeat-y;
+background-attachment: scroll;
+padding-left: 7px;
+padding-right: 1px;
+padding-top: 1px;
+padding-bottom: 1px;
+background-position: 0%
+}
+
+.ve-panel-highlight {
+   border: 2px dashed #FF0000;
+   background-color: white;
+}
+
+.ve-panel-normal {
+   padding: 2px;
+}
+
+.ve-title-text {
+    font-family: Arial;
+    font-size: 10px;
+    color: #000;
+}
+
+.ve-title-text-drag {
+	font-family: Arial;
+	font-size: 10px;
+	color: #000;
+}
+.ve-title-rtcurve {
+    background: url(https://imgssl.constantcontact.com/ui/images1/visualeditor/ve_title_rtcurve.gif) no-repeat right top;
+	padding: 5px 5px 1px 0px;
+	margin-left: 4px;
+}
+/* All the styles used by edit mode */
+.ve-edit-title-active {
+    background: url(https://imgssl.constantcontact.com/ui/images1/visualeditor/ve_title_bkgrd2.gif) no-repeat;
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+
+.ve-title-rtcurve-active {
+    background: url(https://imgssl.constantcontact.com/ui/images1/visualeditor/ve_title_rtcurve2.gif) no-repeat right top;
+    padding: 5px 5px 1px 0px;margin-left: 4px;
+}
+
+
+.vebar_up_active{     background-image: url('https://imgssl.constantcontact.com/ui/images1/visualeditor/vetitlebar-moveup-on.gif');}
+.vebar_up{            background-image: url('https://imgssl.constantcontact.com/ui/images1/visualeditor/vetitlebar-moveup-off.gif');}
+
+.vebar_down_active{   background-image: url('https://imgssl.constantcontact.com/ui/images1/visualeditor/vetitlebar-movedown-on.gif');}
+.vebar_down{          background-image: url('https://imgssl.constantcontact.com/ui/images1/visualeditor/vetitlebar-movedown-off.gif');}
+
+.vebar_edit_active{   background-image: url('https://imgssl.constantcontact.com/ui/images1/blocktbar_edit_hvr.gif');}
+.vebar_edit{          background-image: url('https://imgssl.constantcontact.com/ui/images1/blocktbar_edit.gif');}
+
+.vebar_duplicate_active{background-image: url('https://imgssl.constantcontact.com/ui/images1/visualeditor/vetitlebar-duplicate-on.gif'); margin-left: 6px;}
+.vebar_duplicate{
+	background-image: url('https://imgssl.constantcontact.com/ui/images1/visualeditor/vetitlebar-duplicate-off.gif');
+	margin-left: 6px;
+}
+
+
+.vebar_delete_active{ background-image: url('https://imgssl.constantcontact.com/ui/images1/blocktbar_delete_hvr.gif');}
+.vebar_delete{        background-image: url('https://imgssl.constantcontact.com/ui/images1/blocktbar_delete.gif');}
+
+.vebutton {
+    width: 24px;
+    height: 22px;
+    cursor: hand;
+    }
+
+.vebar1_active, .vebar1-active,.vebar1 {
+    padding:0; margin:0;
+    background:url('https://imgssl.constantcontact.com/ui/images1/blocktbar_bg.jpg') repeat-x 0 0;
+    line-height:10px;
+    height:20px;
+    border: 1px solid #78808b;
+    color:#000;
+ }
+
+.vedots_active,.vedots,.ve-edit-title-drag-active,.ve-edit-title-drag { cursor: move; color: #000000; width: 99%; }
+
+.ve-edit-title-no-drag{
+	width: 99%;
+    }
+.ve-edit-title-no-drag-active{
+	width: 99%;
+    }
+
+
+
+.vebar1.editmode
+{
+    border: 1px solid #a6a6a6;
+    font-family: Arial;
+    font-size: 10px;
+    color: #555555;
+    }
+
+.vebar1.editmode .vedots{display: none;}
+.vebar1.editmode .vebar_edit{display: none;}
+.vebar1.editmode .vebar_duplicate{display: none;}
+.vebar1.editmode .vebar_delete{display: none;}
+
+.vebar_save{display: none;}
+.vebar_cancel{display: none;}
+
+.vebar1.editmode .vebar_save{display: block;}
+.vebar1.editmode .vebar_cancel{display: block;}
+
+.leftside-grab
+{
+    background: url('https://imgssl.constantcontact.com/ui/images1/blocktbar-grab.jpg') no-repeat 0 0;
+    padding-left: 13px;
+    cursor: move;
+}
+
+.leftside-grab-off
+{
+    background: url('https://imgssl.constantcontact.com/ui/images1/blocktbar-grab.jpg') no-repeat 0 0;
+    padding-left: 13px;
+}
+
+.ve-edit-buttons input {padding-right:1px;}
+
+table {text-align: left;}
+
+

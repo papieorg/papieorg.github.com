@@ -135,6 +135,29 @@ a:visited {
     text-decoration: none;
 }
 
+.bold10orange:link {
+    color: #E96F23;
+    text-decoration: none;
+}
+
+.bold10orange:active {
+    color: #E96F23;
+    text-decoration: none;
+}
+
+.bold10orange:visited {
+    color: #E96F23;
+    text-decoration: none;
+}
+
+.bold10orange:hover {
+    color: #1F408B;
+    border-bottom-width: 1px;
+
+    border-bottom-style: dotted;
+    border-bottom-color: #3B3B3B;
+}
+
 .bold10gray {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -297,6 +320,14 @@ a:visited {
     text-decoration: none;
 }
 
+.subBlue30 {
+    color: #1F408B;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+    text-decoration: none
+}
+
 .subBlue18 {
     color: #1F408B;
     font-family: Arial, Helvetica, sans-serif;
@@ -328,6 +359,9 @@ a:visited {
     font-size: 12pt;
     text-decoration: none
 }
+
+
+
 
 /*
 
@@ -466,6 +500,16 @@ a:visited {
     font-size: 10pt;
     text-decoration: none;
     color: #1f497d;
+}
+
+.sectionGray10 {
+    color: #626263;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 6px;
+    font-weight: bold;
+    font-size: 9pt;
+    text-decoration: none;
+    vertical-align: top;
 }
 
 }

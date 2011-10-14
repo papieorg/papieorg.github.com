@@ -1,0 +1,162 @@
+
+
+
+/* CSS Document */
+
+/* ----BUTTONS -----------------------------------*/
+/* secondary and non-submit page actions */
+body input.vebtn-secondary { font-family: Arial, Helvetica, sans-serif; color: #333; background-color:
+               #605F9A; background-image:
+               url('http://img.constantcontact.com/ui/images1/visualeditor/ab_inactive.gif');
+               background-repeat: no-repeat; background-attachment: scroll;
+               font-size: 11px; border: 1px solid #CCCCCC; margin: 0px;
+               padding: 2px; background-position: 0% }
+/* primary page actions */
+
+body input.vebtn-primary { font-family: Arial, Helvetica, sans-serif; color: #fff; background-color:
+               #605F9A; background-image:
+               url('http://img.constantcontact.com/ui/images1/visualeditor/ab_active.gif');
+               background-repeat: no-repeat; background-attachment: scroll;
+               font-size: 11px; border: 1px solid #CCCCCC; margin: 0px;
+               padding: 2px; background-position: 0% }
+
+body input.vebtn-primary-disabled {font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #a6a6a6;
+	background: #e5e5e5 url(http://img.constantcontact.com/ui/images1/visualeditor/ab_inactive.gif) no-repeat;
+    font-size: 11px; border: 1px solid #CCCCCC; margin: 0px;
+    padding: 2px; background-position: 0%
+}
+
+/* -- STYLES FOR WITHIN A CAMPAIGN or SURVEY -------- */
+.ve-edit-wrap {
+	padding: 4px;
+	border: 1px dotted #999999;
+    margin-bottom: 10px;
+}
+.ve-edit-title {
+    background: url(http://img.constantcontact.com/ui/images1/visualeditor/ve_title_bkgrd.gif) no-repeat;
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+
+.ve-edit-title-drag {
+	color: #CCCCCC;
+	font: normal 0.9em Arial, Helvetica, sans-serif;
+	width: 99%;
+	background: #FFFFFF url(http://img.constantcontact.com/ui/images1/visualeditor/ve_grip_texture2.gif) no-repeat 50% 50%;
+	border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    cursor:  move;
+}
+.ve-edit-title-no-drag {
+	color: #CCCCCC;
+	font: normal 0.9em Arial, Helvetica, sans-serif;
+	/*width: 95%;*/
+    background: #FFFFFF;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+.ve-edit-title-drag p {
+	background: #333333;
+	display: inline;
+}
+.ve-edit-buttons {
+	background: #FFFFFF;
+	padding: 2px 2px 2px 5px;
+	border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+.ve-edit-pagebreak {
+	color: #666666;
+	background: #DDDDDD;
+	padding: 4px 5px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.ve-edit-midcontent {
+	background: #FFFFFF;
+	padding: 2px 5px;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+
+.insert-bar  { 
+text-align: left; 
+font-weight: bold; 
+color: #000000; 
+background-repeat: repeat-y; 
+background-attachment: scroll;
+padding-left: 7px; 
+padding-right: 1px; 
+padding-top: 1px;
+padding-bottom: 1px; 
+background-position: 0% 
+}
+
+.ve-panel-highlight {
+   border: 2px dashed #FF0000;
+   background-color: white;
+}
+
+.ve-panel-normal {
+   padding: 2px;
+}
+
+.ve-title-text {
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #666666;
+	margin: 0px;
+	padding: 0px 0px 0px 4px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.ve-title-text-drag {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #666666;
+    margin: 0px;
+    padding: 0px 4px;
+    cursor:  move;
+    border-bottom: 1px solid #CCCCCC;
+}
+.ve-title-rtcurve {
+    background: url(http://img.constantcontact.com/ui/images1/visualeditor/ve_title_rtcurve.gif) no-repeat right top;
+	padding: 5px 5px 1px 0px;
+	margin-left: 4px;
+}
+/* All the styles used by edit mode */
+.ve-edit-title-active {
+    background: url(http://img.constantcontact.com/ui/images1/visualeditor/ve_title_bkgrd2.gif) no-repeat;
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+
+.ve-title-rtcurve-active {
+    background: url(http://img.constantcontact.com/ui/images1/visualeditor/ve_title_rtcurve2.gif) no-repeat right top;
+    padding: 5px 5px 1px 0px;margin-left: 4px;
+}
+
+.ve-edit-buttons-active {
+    background: #858585;
+    padding: 2px 2px 2px 5px;
+    border-left: 1px solid #6B6B6B;
+    border-bottom: 1px solid #6B6B6B;
+    /*padding: 2px 2px 2px 5px;border-left: 1px solid #FFDD65;border-bottom: 1px solid #FFDD65;background: #FFF1BD;*/
+}
+
+.ve-edit-title-drag-active {
+}
+
+.ve-title-text-drag-active {
+    font-weight: normal;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.ve-edit-title-no-drag-active {
+	color: #CCCCCC;
+	font: normal 0.9em Arial, Helvetica, sans-serif;
+	/*width: 95%;*/
+    background: #858585;
+    border-right: 1px solid #6B6B6B;
+    border-bottom: 1px solid #6B6B6B;
+}
