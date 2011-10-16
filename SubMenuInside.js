@@ -6,7 +6,7 @@ function mmLoadMenus() {
   mm_menu_0324093759_0.addMenuItem("History","location='../01_About/History.html'");
   mm_menu_0324093759_0.addMenuItem("Financial&nbsp;Performance","location='../01_About/Financials.html'");
   //mm_menu_0324093759_0.addMenuItem("Community&nbsp;Report","location='../01_About/Report.html'");
-  mm_menu_0324093759_0.addMenuItem("Report&nbsp;to&nbsp;the&nbsp;Community","location='http://www.papie.org/annualReport_2009_nodonor.pdf'");
+  mm_menu_0324093759_0.addMenuItem("Report&nbsp;to&nbsp;the&nbsp;Community","location= 'PiEImages/PiE_PDFs/PAPiE_annual_2010.pdf'");
 
   mm_menu_0324093759_0.addMenuItem("Board&nbsp;of&nbsp;Directors","location='../01_About/BOD.html'");
   mm_menu_0324093759_0.addMenuItem("Advisory&nbsp;Council","location='../01_About/AdvisoryCouncil.html'");

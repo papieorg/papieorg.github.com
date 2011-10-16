@@ -5,7 +5,7 @@ function mmLoadMenus() {
   mm_menu_0324093759_0.addMenuItem("Mission,&nbsp;Vision,&nbsp;Values","location='01_About/Mission.html'");
   mm_menu_0324093759_0.addMenuItem("History","location='01_About/History.html'");
   mm_menu_0324093759_0.addMenuItem("Financial&nbsp;Performance","location='01_About/Financials.html'");
-  mm_menu_0324093759_0.addMenuItem("Report&nbsp;to&nbsp;the&nbsp;Community","location='http://www.papie.org/annualReport_2009_nodonor.pdf'");
+  mm_menu_0324093759_0.addMenuItem("Report&nbsp;to&nbsp;the&nbsp;Community","location= 'PiEImages/PiE_PDFs/PAPiE_annual_2010.pdf'");
   mm_menu_0324093759_0.addMenuItem("Board&nbsp;of&nbsp;Directors","location='01_About/BOD.html'");
   mm_menu_0324093759_0.addMenuItem("Advisory&nbsp;Council","location='01_About/AdvisoryCouncil.html'");
   mm_menu_0324093759_0.addMenuItem("Volunteers&nbsp;&amp;&nbsp;Staff","location='01_About/VolunteersStaff.html'");
