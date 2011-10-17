@@ -43,7 +43,7 @@ function mmLoadMenus() {
   mm_menu_0324095516_0.addMenuItem("Press&nbsp;Releases","location='04_News/News.html'");
   mm_menu_0324095516_0.addMenuItem("Media&nbsp;Coverage","location='04_News/MediaCoverage.html'");
   mm_menu_0324095516_0.addMenuItem("Newsletters","location='04_News/Newsletters.html'");
-  mm_menu_0324095516_0.addMenuItem("Other&nbsp;Materials","location='04_News/othermaterials.html'");
+  mm_menu_0324095516_0.addMenuItem("Other&nbsp;Materials","location='04_News/OtherMaterials.html'");
    mm_menu_0324095516_0.hideOnMouseOut=true;
    mm_menu_0324095516_0.bgColor='#555555';
    mm_menu_0324095516_0.menuBorder=1;
