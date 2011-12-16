@@ -18,7 +18,9 @@ function mmLoadMenus() {
   mm_menu_0324094724_0.addMenuItem("Schools&nbsp;Campaign","location='02_OurImpact/SchoolCampaign.html'");
   mm_menu_0324094724_0.addMenuItem("Teacher&nbsp;Grants","location='02_OurImpact/TeacherGrants.html'");
   mm_menu_0324094724_0.addMenuItem("Community&nbsp;Support","location='02_OurImpact/CommunitySupport.html'");
-//  mm_menu_0324094724_0.addMenuItem("PiE&nbsp;Fair","location='02_OurImpact/piefair.html'");
+    mm_menu_0324094724_0.addMenuItem("Business&nbsp;Partners","location='02_OurImpact/BizPartners2012.html'");
+
+    //  mm_menu_0324094724_0.addMenuItem("PiE&nbsp;Fair","location='02_OurImpact/piefair.html'");
    mm_menu_0324094724_0.hideOnMouseOut=true;
    mm_menu_0324094724_0.bgColor='#555555';
    mm_menu_0324094724_0.menuBorder=1;
