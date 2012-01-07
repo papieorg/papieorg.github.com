@@ -1,263 +1,263 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-    <title>Palo Alto Partners in Education</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>Palo Alto Partners in Education</title>
 
-    <link href="PiE_Styles.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" language="JavaScript" src="SubMenuBlue.js"></script>
-    <script type="text/javascript" language="JavaScript" src="mm_menu2.js"></script>
-    <script type="text/javascript" language="JavaScript" src="mootools.svn.js"></script>
+<link href="PiE_Styles.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" language="JavaScript" src="SubMenuBlue.js"></script>
+<script type="text/javascript" language="JavaScript" src="mm_menu2.js"></script>
+<script type="text/javascript" language="JavaScript" src="mootools.svn.js"></script>
 
-    <script language="javascript" type="text/javascript">
+<script language="javascript" type="text/javascript">
 
-        var win = null;
-        function NewWindow(mypage, myname, w, h, scroll, pos) {
-            if (pos == "random") {
-                LeftPosition = (screen.width) ? Math.floor(Math.random() * (screen.width - w)) : 100;
-                TopPosition = (screen.height) ? Math.floor(Math.random() * ((screen.height - h) - 75)) : 100;
-            }
-            if (pos == "center") {
-                LeftPosition = (screen.width) ? (screen.width - w) / 2 : 100;
-                TopPosition = (screen.height) ? (screen.height - h) / 2 : 100;
-            }
-            else if ((pos != "center" && pos != "random") || pos == null) {
-                LeftPosition = 0;
-                TopPosition = 20
-            }
-            settings = 'width=' + w + ',height=' + h + ',top=' + TopPosition + ',left=' + LeftPosition + ',scrollbars=' + scroll + ',location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=no';
-            win = window.open(mypage, myname, settings);
+    var win = null;
+    function NewWindow(mypage, myname, w, h, scroll, pos) {
+        if (pos == "random") {
+            LeftPosition = (screen.width) ? Math.floor(Math.random() * (screen.width - w)) : 100;
+            TopPosition = (screen.height) ? Math.floor(Math.random() * ((screen.height - h) - 75)) : 100;
         }
-
-    </script>
-
-    <script language="JavaScript" type="text/JavaScript">
-        <!--
-        function MM_swapImgRestore() { //v3.0
-            var i,x,a = document.MM_sr;
-            for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+        if (pos == "center") {
+            LeftPosition = (screen.width) ? (screen.width - w) / 2 : 100;
+            TopPosition = (screen.height) ? (screen.height - h) / 2 : 100;
         }
-
-        function MM_preloadImages() { //v3.0
-            var d = document;
-            if (d.images) {
-                if (!d.MM_p) d.MM_p = new Array();
-                var i,j = d.MM_p.length,a = MM_preloadImages.arguments;
-                for (i = 0; i < a.length; i++)
-                    if (a[i].indexOf("#") != 0) {
-                        d.MM_p[j] = new Image;
-                        d.MM_p[j++].src = a[i];
-                    }
-            }
+        else if ((pos != "center" && pos != "random") || pos == null) {
+            LeftPosition = 0;
+            TopPosition = 20
         }
+        settings = 'width=' + w + ',height=' + h + ',top=' + TopPosition + ',left=' + LeftPosition + ',scrollbars=' + scroll + ',location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=no';
+        win = window.open(mypage, myname, settings);
+    }
 
-        function MM_findObj(n, d) { //v4.01
-            var p,i,x;
-            if (!d) d = document;
-            if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
-                d = parent.frames[n.substring(p + 1)].document;
-                n = n.substring(0, p);
-            }
-            if (!(x = d[n]) && d.all) x = d.all[n];
-            for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
-            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
-            if (!x && d.getElementById) x = d.getElementById(n);
-            return x;
-        }
+</script>
 
-        function MM_swapImage() { //v3.0
-            var i,j = 0,x,a = MM_swapImage.arguments;
-            document.MM_sr = new Array;
-            for (i = 0; i < (a.length - 2); i += 3)
-                if ((x = MM_findObj(a[i])) != null) {
-                    document.MM_sr[j++] = x;
-                    if (!x.oSrc) x.oSrc = x.src;
-                    x.src = a[i + 2];
+<script language="JavaScript" type="text/JavaScript">
+    <!--
+    function MM_swapImgRestore() { //v3.0
+        var i,x,a = document.MM_sr;
+        for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+
+    function MM_preloadImages() { //v3.0
+        var d = document;
+        if (d.images) {
+            if (!d.MM_p) d.MM_p = new Array();
+            var i,j = d.MM_p.length,a = MM_preloadImages.arguments;
+            for (i = 0; i < a.length; i++)
+                if (a[i].indexOf("#") != 0) {
+                    d.MM_p[j] = new Image;
+                    d.MM_p[j++].src = a[i];
                 }
         }
+    }
 
-        function MM_reloadPage(init) {  //reloads the window if Nav4 resized
-            if (init == true) with (navigator) {
-                if ((appName == "Netscape") && (parseInt(appVersion) == 4)) {
-                    document.MM_pgW = innerWidth;
-                    document.MM_pgH = innerHeight;
-                    onresize = MM_reloadPage;
-                }
+    function MM_findObj(n, d) { //v4.01
+        var p,i,x;
+        if (!d) d = document;
+        if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+            d = parent.frames[n.substring(p + 1)].document;
+            n = n.substring(0, p);
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n];
+        for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+        if (!x && d.getElementById) x = d.getElementById(n);
+        return x;
+    }
+
+    function MM_swapImage() { //v3.0
+        var i,j = 0,x,a = MM_swapImage.arguments;
+        document.MM_sr = new Array;
+        for (i = 0; i < (a.length - 2); i += 3)
+            if ((x = MM_findObj(a[i])) != null) {
+                document.MM_sr[j++] = x;
+                if (!x.oSrc) x.oSrc = x.src;
+                x.src = a[i + 2];
             }
-            else if (innerWidth != document.MM_pgW || innerHeight != document.MM_pgH) location.reload();
-        }
-        MM_reloadPage(true);
+    }
 
-        function MM_showHideLayers() { //v6.0
-            var i,p,v,obj,args = MM_showHideLayers.arguments;
-            for (i = 0; i < (args.length - 2); i += 3) if ((obj = MM_findObj(args[i])) != null) {
-                v = args[i + 2];
-                if (obj.style) {
-                    obj = obj.style;
-                    v = (v == 'show') ? 'visible' : (v == 'hide') ? 'hidden' : v;
-                }
-                obj.visibility = v;
+    function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+        if (init == true) with (navigator) {
+            if ((appName == "Netscape") && (parseInt(appVersion) == 4)) {
+                document.MM_pgW = innerWidth;
+                document.MM_pgH = innerHeight;
+                onresize = MM_reloadPage;
             }
         }
+        else if (innerWidth != document.MM_pgW || innerHeight != document.MM_pgH) location.reload();
+    }
+    MM_reloadPage(true);
 
-        //-->
-    </script>
-    <style type="text/css">
-        <!--
-
-        #NewsTicker {
-            BORDER-RIGHT: #cccccc 1px solid;
-            BORDER-TOP: #cccccc 1px solid;
-            BACKGROUND: #f6f6f6;
-            MARGIN: 0px auto;
-            BORDER-LEFT: #cccccc 1px solid;
-            WIDTH: 220px;
-            BORDER-BOTTOM: #cccccc 1px solid;
-            HEIGHT: 410px
+    function MM_showHideLayers() { //v6.0
+        var i,p,v,obj,args = MM_showHideLayers.arguments;
+        for (i = 0; i < (args.length - 2); i += 3) if ((obj = MM_findObj(args[i])) != null) {
+            v = args[i + 2];
+            if (obj.style) {
+                obj = obj.style;
+                v = (v == 'show') ? 'visible' : (v == 'hide') ? 'hidden' : v;
+            }
+            obj.visibility = v;
         }
+    }
 
-        #NewsTicker H1 {
-            BORDER-TOP-WIDTH: 0px;
-            PADDING-RIGHT: 6px;
-            PADDING-LEFT: 6px;
-            FONT-WEIGHT: bold;
-            BORDER-LEFT-WIDTH: 0px;
-            FONT-SIZE: 11px;
-            BACKGROUND: #dededf;
-            BORDER-BOTTOM-WIDTH: 0px;
-            PADDING-BOTTOM: 6px;
-            MARGIN: 0px;
-            COLOR: #000000;
-            PADDING-TOP: 6px;
-            BORDER-RIGHT-WIDTH: 0px
-        }
+    //-->
+</script>
+<style type="text/css">
+    <!--
 
-        #NewsVertical {
-            DISPLAY: block;
-            OVERFLOW: hidden;
-            WIDTH: 220px;
-            POSITION: relative;
-            HEIGHT: 270px
-        }
+    #NewsTicker {
+        BORDER-RIGHT: #cccccc 1px solid;
+        BORDER-TOP: #cccccc 1px solid;
+        BACKGROUND: #f6f6f6;
+        MARGIN: 0px auto;
+        BORDER-LEFT: #cccccc 1px solid;
+        WIDTH: 220px;
+        BORDER-BOTTOM: #cccccc 1px solid;
+        HEIGHT: 410px
+    }
 
-        #TickerVertical {
-            PADDING-RIGHT: 0px;
-            DISPLAY: block;
-            PADDING-LEFT: 0px;
-            PADDING-BOTTOM: 0px;
-            MARGIN: 0px;
-            WIDTH: 220px;
-            PADDING-TOP: 0px;
-            LIST-STYLE-TYPE: none;
-            HEIGHT: 400px
-        }
+    #NewsTicker H1 {
+        BORDER-TOP-WIDTH: 0px;
+        PADDING-RIGHT: 6px;
+        PADDING-LEFT: 6px;
+        FONT-WEIGHT: bold;
+        BORDER-LEFT-WIDTH: 0px;
+        FONT-SIZE: 11px;
+        BACKGROUND: #dededf;
+        BORDER-BOTTOM-WIDTH: 0px;
+        PADDING-BOTTOM: 6px;
+        MARGIN: 0px;
+        COLOR: #000000;
+        PADDING-TOP: 6px;
+        BORDER-RIGHT-WIDTH: 0px
+    }
 
-        #TickerVertical LI {
-            PADDING-RIGHT: 6px;
-            DISPLAY: block;
-            PADDING-LEFT: 6px;
-            FONT-SIZE: 11px;
-            FLOAT: left;
-            PADDING-BOTTOM: 6px;
-            MARGIN: 0px;
-            WIDTH: 200px;
-            COLOR: #333333;
-            PADDING-TOP: 6px;
-            TEXT-ALIGN: left
-        }
+    #NewsVertical {
+        DISPLAY: block;
+        OVERFLOW: hidden;
+        WIDTH: 220px;
+        POSITION: relative;
+        HEIGHT: 270px
+    }
 
-        #TickerVertical LI .NewsTitle {
-            DISPLAY: block;
-            FONT-WEIGHT: bold;
-            FONT-SIZE: 12px;
-            MARGIN-BOTTOM: 6px;
-            COLOR: #000000
-        }
+    #TickerVertical {
+        PADDING-RIGHT: 0px;
+        DISPLAY: block;
+        PADDING-LEFT: 0px;
+        PADDING-BOTTOM: 0px;
+        MARGIN: 0px;
+        WIDTH: 220px;
+        PADDING-TOP: 0px;
+        LIST-STYLE-TYPE: none;
+        HEIGHT: 400px
+    }
 
-        #TickerVertical LI .NewsTitle A:link {
-            DISPLAY: block;
-            FONT-WEIGHT: bold;
-            FONT-SIZE: 12px;
-            MARGIN-BOTTOM: 6px;
-            COLOR: #000000;
-            TEXT-DECORATION: none
-        }
+    #TickerVertical LI {
+        PADDING-RIGHT: 6px;
+        DISPLAY: block;
+        PADDING-LEFT: 6px;
+        FONT-SIZE: 11px;
+        FLOAT: left;
+        PADDING-BOTTOM: 6px;
+        MARGIN: 0px;
+        WIDTH: 200px;
+        COLOR: #333333;
+        PADDING-TOP: 6px;
+        TEXT-ALIGN: left
+    }
 
-        #TickerVertical LI .NewsTitle A:visited {
-            DISPLAY: block;
-            FONT-WEIGHT: bold;
-            FONT-SIZE: 12px;
-            MARGIN-BOTTOM: 6px;
-            COLOR: #000000;
-            TEXT-DECORATION: none
-        }
+    #TickerVertical LI .NewsTitle {
+        DISPLAY: block;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 12px;
+        MARGIN-BOTTOM: 6px;
+        COLOR: #000000
+    }
 
-        #TickerVertical LI .NewsTitle A:hover {
-            TEXT-DECORATION: underline
-        }
+    #TickerVertical LI .NewsTitle A:link {
+        DISPLAY: block;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 12px;
+        MARGIN-BOTTOM: 6px;
+        COLOR: #000000;
+        TEXT-DECORATION: none
+    }
 
-        #TickerVertical LI .NewsImg {
-            FLOAT: left;
-            MARGIN-RIGHT: 10px
-        }
+    #TickerVertical LI .NewsTitle A:visited {
+        DISPLAY: block;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 12px;
+        MARGIN-BOTTOM: 6px;
+        COLOR: #000000;
+        TEXT-DECORATION: none
+    }
 
-        #TickerVertical LI .NewsFooter {
-            DISPLAY: block;
-            FONT-SIZE: 10px;
-            MARGIN: 6px 0px 14px;
-            COLOR: #000000
-        }
+    #TickerVertical LI .NewsTitle A:hover {
+        TEXT-DECORATION: underline
+    }
 
-        body, td, th {
-            font-family: Arial, Helvetica, sans-serif;
-            background-repeat: repeat-x;
-        }
+    #TickerVertical LI .NewsImg {
+        FLOAT: left;
+        MARGIN-RIGHT: 10px
+    }
 
-        body {
-            margin-left: 0px;
-            margin-top: 0px;
-        }
+    #TickerVertical LI .NewsFooter {
+        DISPLAY: block;
+        FONT-SIZE: 10px;
+        MARGIN: 6px 0px 14px;
+        COLOR: #000000
+    }
 
-        a:link {
-            text-decoration: none;
-        }
+    body, td, th {
+        font-family: Arial, Helvetica, sans-serif;
+        background-repeat: repeat-x;
+    }
 
-        a:visited {
-            text-decoration: none;
-        }
+    body {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    a:link {
+        text-decoration: none;
+    }
 
-        a:active {
-            text-decoration: none;
-        }
+    a:visited {
+        text-decoration: none;
+    }
 
-        .style1 {
-            color: #1F408B;
-            font-weight: bold;
-            line-height: 1.2em;
-        }
+    a:hover {
+        text-decoration: underline;
+    }
 
-        STRONG {
-            font-weight: bold;
-            font-size: 10px;
-            font-family: verdana;
-            color: #333;
-        }
+    a:active {
+        text-decoration: none;
+    }
 
-        .style3 {
-            margin-right: 18px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 10pt;
-            color: #3B3B3B;
-            text-decoration: none;
-            margin-top: 0px;
-        }
+    .style1 {
+        color: #1F408B;
+        font-weight: bold;
+        line-height: 1.2em;
+    }
 
-        -->
-    </style>
+    STRONG {
+        font-weight: bold;
+        font-size: 10px;
+        font-family: verdana;
+        color: #333;
+    }
+
+    .style3 {
+        margin-right: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        color: #3B3B3B;
+        text-decoration: none;
+        margin-top: 0px;
+    }
+
+    -->
+</style>
 
 </head>
 
@@ -355,8 +355,7 @@
     <p align="center">
 
 
-
-     <a href="./03_Donate/PersonalDonations.html" class="link_GrayDot"><span class="bold14orange">Donate Now!<br>Campaign ends January 27</span></a>
+        <a href="./03_Donate/PersonalDonations.html" class="link_GrayDot"><span class="bold14orange">Donate Now!<br>Campaign ends January 27</span></a>
 
 
     </p>
@@ -374,7 +373,7 @@
     <hr style="width:188px; margin-left:12px; color:#CCC"/>
 
     <div class="bold9gray" style="margin-left:12px; color: #626263;">
-        <p>Suma cum Laude Business Partners<br>
+        <p>Business Partners<br>
         </p>
     </div>
 
@@ -384,13 +383,17 @@
 
             var slideshow_width = '144px' //SET IMAGE WIDTH
             var slideshow_height = '76px' //SET IMAGE HEIGHT
-            var pause = 5000 //SET PAUSE BETWEEN SLIDE (3000=3 seconds)
+            var pause = 3000 //SET PAUSE BETWEEN SLIDE (3000=3 seconds)
 
             var fadeimages = new Array()
             //SET 1) IMAGE PATHS, 2) optional link, 3), optional link target:
             fadeimages[0] = ["PiEimages/sponsor3.gif", "", ""]
             fadeimages[1] = ["PiEimages/sponsor6.jpg", "", ""]
             fadeimages[2] = ["PiEimages/sponsor5.gif", "", ""]
+            fadeimages[3] = ["PiEimages/sponsor7.jpg", "", ""]
+            fadeimages[4] = ["PiEimages/sponsor8.jpg", "", ""]
+            fadeimages[5] = ["PiEimages/sponsor9.jpg", "", ""]
+
 
             ////NO need to edit beyond here/////////////
 
@@ -507,16 +510,16 @@
     <p class="body10" style="margin-left:24px; margin-right:12px;">
         Palo Alto Partners in Education's campaign, which raises private donations to
         preserve vital staff and programs in all Palo Alto public schools, will conclude
-        their annual campaign on January 27, 2012.   Generous donors have funded the "You
+        their annual campaign on January 27, 2012. Generous donors have funded the "You
         Make the Difference" Challenge Grant, which will give PiE an additional $50,000 if
-        300 additional families donate by the end of the campaign.  The California budget
+        300 additional families donate by the end of the campaign. The California budget
         cuts may result in mid-year budget cuts for our schools, but "you can make the
         difference" by supporting PiE and helping us continue to fund classroom aides,
         science and the arts in elementary schools; student counselors, teacher coaches and
         elective enrichment in the middle schools; and college and career counseling,
-        student guidance, and career technology education in the high schools.  For
+        student guidance, and career technology education in the high schools. For
         information about how PAUSD schools are using PiE funds this year, click
-        <a href ="./02_OurImpact/SchoolCampaign.html">here</a>.
+        <a href="./02_OurImpact/SchoolCampaign.html">here</a>.
 
 
     </p>
@@ -533,13 +536,13 @@
 
         <!--<script type="text/javascript">-->
 
-            <!--var currentTime = new Date()-->
-            <!--var month = currentTime.getMonth();-->
-            <!--var day = currentTime.getDate()-->
-            <!--var year = currentTime.getFullYear()-->
-            <!--var month_ar = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");-->
+        <!--var currentTime = new Date()-->
+        <!--var month = currentTime.getMonth();-->
+        <!--var day = currentTime.getDate()-->
+        <!--var year = currentTime.getFullYear()-->
+        <!--var month_ar = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");-->
 
-            <!--document.write(month_ar[month] + " " + day + "," + " " + year)-->
+        <!--document.write(month_ar[month] + " " + day + "," + " " + year)-->
 
         <!--</script>-->
     </p>
@@ -550,7 +553,7 @@
     <img src="PiEimages/spacer.gif" width="224" height="15" alt="">
 
     <p style="margin-left:14px; margin-right:10px;" class="body9" align="center">
-        <a href="./03_Donate/PersonalDonations.html" ><img src="PiEimages/DonateNowBlue.jpg" alt="Donate Now" width="101"
+        <a href="./03_Donate/PersonalDonations.html"><img src="PiEimages/DonateNowBlue.jpg" alt="Donate Now" width="101"
                                                           height="31" border="0"></a></p>
 
     <p style="margin-left:14px; margin-right:10px;" class="body9">
@@ -560,10 +563,11 @@
         <br/><br/>
 
         <span class="bold10orange">What's New</span><br/>
-         <a href="02_OurImpact/BizPartners2012.html" class="link_GrayDot">PiE Recognizes Business Partners</a><br/>
+        <a href="02_OurImpact/BizPartners2012.html" class="link_GrayDot">PiE Recognizes Business Partners</a><br/>
         <a href="03_Donate/LeadershipCircle.html" class="link_GrayDot">Join Leadership Circle</a><br>
-       
-        <a href="http://palyvoice.com/node/29043" class="link_GrayDot">PiE funds help make up for state budget cuts</a><br>
+
+        <a href="http://palyvoice.com/node/29043" class="link_GrayDot">PiE funds help make up for state budget
+            cuts</a><br>
 
         <a href="PiEimages/PiE_PDFs/2011-12_Campaign_Goal_PR.pdf" class="link_GrayDot">PiE Kicks Off 2011-12 School
             Campaign</a><br/>
