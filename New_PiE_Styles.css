@@ -2,6 +2,10 @@
 "utf-8"
 ;
 
+a:link {
+        text-decoration: none;
+}    
+
 p {
         color: #3B3B3B;
         font-size: 9pt;
@@ -16,26 +20,36 @@ p {
     line-height: 1.2em;
     text-decoration: none;
     }
+
+.left_list {
+        margin-left:.5em; 
+        padding-left:.5em;
+        }
     
-#Ways_To_Give_Div {
+#Main_Column_Middle_Div {
         border-top: 2px solid grey;>
         }
         
-div#Ways_To_Give_Div li {
+div#Main_Column_Middle_Div li {
         color: #5a78b0;
-        font-size: 9pt;
+        font-size: 12pt;
         font-weight: bold;
-        list-style-type: disc;
-        padding: 0 0 0 15px;
+        /*list-style-type: disc;*/
+        padding: 0 0 0 18px;
         margin: 0 0 0 12px;
-        /*background: url(PiEimages/ButtonMoreBlue12.png) 0 3px no-repeat;*/
+        background: url(PiEimages/ButtonMoreBlue12.png) 0 3px no-repeat;
 }
 
-div#Ways_To_Give_Div li a {
+div#Main_Column_Middle_Div li a {
+        color: #5a78b0;
+        text_decoration: none;
+}
+
+div#Main_Column_Middle_Div li p a {
         color: #E96F23;
 }
     
-div#Ways_To_Give_Div li li {
+div#Main_Column_Middle_Div li li {
             color: #3B3B3B;
             font-size: 9pt;
             font-weight: normal;
@@ -45,9 +59,16 @@ div#Ways_To_Give_Div li li {
             background: url(PiEimages/TriangleOrange11.gif) 0 3px no-repeat;
 }
 
+div#Main_Column_Middle_Div li li a {
+        color: #E96F23;
+}
+
 div#RightColumn li {
+        /*display: block;
+        float: left;*/
         font-size: 9pt;
         list-style-type: disc;
+        text-align: left;
 }
 
 div#RightColumn  a {
