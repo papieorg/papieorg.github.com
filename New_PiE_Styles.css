@@ -21,14 +21,20 @@ p {
     text-decoration: none;
     }
 
-.left_list {
-        margin-left:.5em; 
-        padding-left:.5em;
-        }
-    
 #Main_Column_Middle_Div {
-        border-top: 2px solid grey;>
+        border-top: 2px solid grey;
+        width: 552px;
         }
+        
+div#Main_Column_Middle_Div h2 {
+    /* Same as subBlue16 */
+    color: #1F408B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    text-decoration: none;
+    }
+
         
 div#Main_Column_Middle_Div li {
         color: #5a78b0;
@@ -63,9 +69,18 @@ div#Main_Column_Middle_Div li li a {
         color: #E96F23;
 }
 
-div#RightColumn li {
-        /*display: block;
-        float: left;*/
+div#Main_Column_LeftBorder_Div {
+        border-right: 2px solid grey;
+        height: 600px;
+        width: 552px;
+}
+
+#sidebar_flushleft_list {
+        margin-left:.5em; 
+        padding-left:.5em;
+        }
+
+ul#sidebar_flushleft_list li {
         font-size: 9pt;
         list-style-type: disc;
         text-align: left;
@@ -73,4 +88,26 @@ div#RightColumn li {
 
 div#RightColumn  a {
         color: #E96F23;
+}
+
+#RightColumn_SubDiv {
+        border-top: 2px solid grey;
+        padding: 1.2em 0;
+}
+
+#DonateNow_button {
+        align: center;
+        height: 73px;
+        padding: 2em 0em;
+        width: 170px;
+}
+
+#Business_Partner {
+        align: center;
+        height: 75px
+        margin-top: 1.2em;
+        margin-right: auto;
+        margin-bottom: 1.2em;
+        margin-left: auto;
+        width: 154px;
 }
