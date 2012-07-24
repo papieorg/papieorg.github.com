@@ -7,10 +7,12 @@ function mmLoadMenus() {
   mm_menu_0324093759_0.addMenuItem("Financial&nbsp;Performance","location='../01_About/Financials.html'");
   //mm_menu_0324093759_0.addMenuItem("Community&nbsp;Report","location='../01_About/Report.html'");
   mm_menu_0324093759_0.addMenuItem("Report&nbsp;to&nbsp;the&nbsp;Community","location= '../PiEimages/PiE_PDFs/PAPiE_annual_2010.pdf'");
-
   mm_menu_0324093759_0.addMenuItem("Board&nbsp;of&nbsp;Directors","location='../01_About/BOD.html'");
   mm_menu_0324093759_0.addMenuItem("Advisory&nbsp;Council","location='../01_About/AdvisoryCouncil.html'");
   mm_menu_0324093759_0.addMenuItem("Volunteers&nbsp;&amp;&nbsp;Staff","location='../01_About/VolunteersStaff.html'");
+  mm_menu_0324093759_0.addMenuItem("Contact Us","location='../01_About/ContactInfo.html'");
+
+
    mm_menu_0324093759_0.hideOnMouseOut=true;
    mm_menu_0324093759_0.bgColor='#555555';
    mm_menu_0324093759_0.menuBorder=1;
@@ -30,11 +32,16 @@ function mmLoadMenus() {
    mm_menu_0324094724_0.menuLiteBgColor='#FFFFFF';
    mm_menu_0324094724_0.menuBorderBgColor='#777777';
   window.mm_menu_0324095416_0 = new Menu("root",130,22,"Arial, Helvetica, sans-serif",10,"#505050","#FFFFFF","#CECECF","#386FAD","left","middle",3,0,1000,-5,7,true,false,true,2,false,false);
-  mm_menu_0324095416_0.addMenuItem("Ways&nbsp;to&nbsp;Give","location='../03_Donate/WaysToGive.html'");
-  mm_menu_0324095416_0.addMenuItem("Donations","location='../03_Donate/PersonalDonations.html'");
+    mm_menu_0324095416_0.addMenuItem("How To Give","location='../03_Donate/HowToGive.html'");
+    mm_menu_0324095416_0.addMenuItem("Donation Forms","location='../03_Donate/DonationsForms.html'");
+
+  //mm_menu_0324095416_0.addMenuItem("Donations","location='../03_Donate/PersonalDonations.html'");
 //  mm_menu_0324095416_0.addMenuItem("Corporate/Realtor","location='../03_Donate/Corporate_Realtor.html'");
   mm_menu_0324095416_0.addMenuItem("Leadership&nbsp;Circle","location='../03_Donate/LeadershipCircle.html'");
   mm_menu_0324095416_0.addMenuItem("We&nbsp;Give!","location='../03_Donate/DonorProfileOverview.html'");
+  mm_menu_0324095416_0.addMenuItem("FAQs","location='../01_About/FAQs.html'");
+  mm_menu_0324095416_0.addMenuItem("Contact Us","location='../01_About/ContactInfo.html'");
+
    mm_menu_0324095416_0.hideOnMouseOut=true;
    mm_menu_0324095416_0.bgColor='#555555';
    mm_menu_0324095416_0.menuBorder=1;
