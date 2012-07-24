@@ -111,3 +111,31 @@ div#RightColumn  a {
         margin-left: auto;
         width: 154px;
 }
+
+.clearfloats {clear: both;}
+
+.float_left_div {
+         float: left;
+         width: 325px;
+         /* padding: 0.5em; */
+        }
+
+div.float_left_div ul li {
+        width: 325px
+        }
+
+.float_left_img {
+         float: left;
+         /* padding: 0.5em; */
+        }
+
+#float_left_ul {
+         float: left;
+         padding: 0.5em;
+        }
+ 
+ ul#float_left_ul li {
+         font-size: 9pt;
+         list-style-type: none;
+         text-align: left;
+}
