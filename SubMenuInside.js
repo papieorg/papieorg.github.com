@@ -10,6 +10,7 @@ function mmLoadMenus() {
   mm_menu_0324093759_0.addMenuItem("Board&nbsp;of&nbsp;Directors","location='../01_About/BOD.html'");
   mm_menu_0324093759_0.addMenuItem("Advisory&nbsp;Council","location='../01_About/AdvisoryCouncil.html'");
   mm_menu_0324093759_0.addMenuItem("Volunteers&nbsp;&amp;&nbsp;Staff","location='../01_About/VolunteersStaff.html'");
+  mm_menu_0324093759_0.addMenuItem("FAQs","location='../01_About/FAQs.html'");
   mm_menu_0324093759_0.addMenuItem("Contact Us","location='../01_About/ContactInfo.html'");
 
 
@@ -39,8 +40,6 @@ function mmLoadMenus() {
 //  mm_menu_0324095416_0.addMenuItem("Corporate/Realtor","location='../03_Donate/Corporate_Realtor.html'");
   mm_menu_0324095416_0.addMenuItem("Leadership&nbsp;Circle","location='../03_Donate/LeadershipCircle.html'");
   mm_menu_0324095416_0.addMenuItem("We&nbsp;Give!","location='../03_Donate/DonorProfileOverview.html'");
-  mm_menu_0324095416_0.addMenuItem("FAQs","location='../01_About/FAQs.html'");
-  mm_menu_0324095416_0.addMenuItem("Contact Us","location='../01_About/ContactInfo.html'");
 
    mm_menu_0324095416_0.hideOnMouseOut=true;
    mm_menu_0324095416_0.bgColor='#555555';

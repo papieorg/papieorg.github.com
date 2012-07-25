@@ -5,22 +5,10 @@
     <title>PiE | Schools Campaign</title>
     <style type="text/css">
         <!--
-        a:link {
-            text-decoration: none;
-        }
-
-        a:visited {
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        a:active {
-            text-decoration: none;
-        }
-
+        a:link {text-decoration: none;}
+        a:visited {text-decoration: none;}
+        a:hover {text-decoration: underline;}
+        a:active {text-decoration: none;}
         -->
     </style>
     <link href="../PiE_Styles.css" rel="stylesheet" type="text/css">
@@ -28,53 +16,43 @@
     <script type="text/javascript" language="JavaScript" src="../mm_menu2.js"></script>
     <script language="JavaScript" type="text/JavaScript">
         <!--
-        function MM_swapImgRestore() { //v3.0
-            var i,x,a = document.MM_sr;
-            for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
-        }
-        function MM_preloadImages() { //v3.0
-            var d = document;
-            if (d.images) {
-                if (!d.MM_p) d.MM_p = new Array();
-                var i,j = d.MM_p.length,a = MM_preloadImages.arguments;
-                for (i = 0; i < a.length; i++)
-                    if (a[i].indexOf("#") != 0) {
-                        d.MM_p[j] = new Image;
-                        d.MM_p[j++].src = a[i];
-                    }
-            }
-        }
+    function MM_swapImgRestore() { //v3.0
+      var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&& x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
 
-        function MM_findObj(n, d) { //v4.01
-            var p,i,x;
-            if (!d) d = document;
-            if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
-                d = parent.frames[n.substring(p + 1)].document;
-                n = n.substring(0, p);
-            }
-            if (!(x = d[n]) && d.all) x = d.all[n];
-            for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
-            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
-            if (!x && d.getElementById) x = d.getElementById(n);
-            return x;
-        }
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
 
-        function MM_swapImage() { //v3.0
-            var i,j = 0,x,a = MM_swapImage.arguments;
-            document.MM_sr = new Array;
-            for (i = 0; i < (a.length - 2); i += 3)
-                if ((x = MM_findObj(a[i])) != null) {
-                    document.MM_sr[j++] = x;
-                    if (!x.oSrc) x.oSrc = x.src;
-                    x.src = a[i + 2];
-                }
-        }
-        //-->
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
     </script>
 </head>
 
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0"
-      onLoad="MM_preloadImages('../PiEimages/PiE_NavR_01.gif','../PiEimages/PiE_NavR_02.gif','../PiEimages/PiE_NavR_03.gif','../PiEimages/PiE_NavR_04.gif','../PiEimages/PiE_NavR_05.gif','../PiEimages/PiE_NavR_06.gif','../PiEimages/PiE_NavR_07.gif','../PiEimages/PiE_Nav_01.gif','../PiEimages/PiE_Nav_02.gif','../PiEimages/PiE_Nav_03.gif','../PiEimages/PiE_Nav_04.gif','../PiEimages/PiE_Nav_05.gif','../PiEimages/PiE_Nav_06.gif','../PiEimages/PiE_Nav_07.gif')">
+
+    onLoad="MM_preloadImages('PiEimages/PiE_MenuGraphics/PiE_Nav_Home_blue.png',
+    '../PiEimages/Pie_MenuGraphics/PiE_Nav_WhoWeAre_blue.png','PiEimages/PiE_MenuGraphics/PiE_Nav_HowWeHelp_blue.png',
+    '../PiEimages/PiE_MenuGraphics/PiE_Nav_HowToGive_blue.png','PiEimages/PiE_MenuGraphics/PiE_Nav_PressInfo_blue.png',
+    '../PiEimages/PiE_MenuGraphics/PiE_Nav_FAQs_blue.png','PiEimages/PiE_MenuGraphics/PiE_Nav_ContactUs_blue.png',
+    '../PiEimages/PiE_MenuGraphics/PiE_Nav_Home_green.png',
+    '../PiEimages/Pie_MenuGraphics/PiE_Nav_WhoWeAre_green.png','PiEimages/PiE_MenuGraphics/PiE_Nav_HowWeHelp_blue.png',
+    '../PiEimages/PiE_MenuGraphics/PiE_Nav_HowToGive_green.png','PiEimages/PiE_MenuGraphics/PiE_Nav_PressInfo_green.png',
+    '../PiEimages/PiE_MenuGraphics/PiE_Nav_FAQs_green.png','PiEimages/PiE_MenuGraphics/PiE_Nav_ContactUs_green.png'
+    )">
+
 <script language="javascript1.2">mmLoadMenus();</script>
 <a name="top"></a>
 <table width="960" border="0" align="center" id="MainOuterTable">
@@ -100,53 +78,56 @@
                 </table>
             </div>
             <div id="Bar12">
-                <table id="TableNavBar" width="960" height="22" border="0" cellpadding="0" cellspacing="0">
+
+                <table id="TableNavBar" border="0" cellpadding="0" cellspacing="0" height="22" width="960">
+                    <tbody>
                     <tr>
-                        <td width="180" height="22" align="left" valign="top"><a href="../index.html"
-                                                                                 onMouseOut="MM_swapImgRestore()"
-                                                                                 onMouseOver="MM_swapImage('Home1','','../PiEimages/PiE_NavR_01.gif',1)"><img
-                                src="../PiEimages/PiE_Nav_01.gif" alt="Home" name="Home1" width="180" height="22"
-                                border="0" id="HomeButton"></a></td>
-                        <td width="130" height="22" align="left" valign="top"><a href="../01_About/Mission.html"
-                                                                                 onMouseOut="MM_swapImgRestore()"
-                                                                                 onMouseOver="MM_swapImage('AboutMenu1','','../PiEimages/PiE_NavR_02.gif',1)"><img
-                                src="../PiEimages/PiE_Nav_02.gif" alt="About Us" name="AboutMenu1" width="130"
-                                height="22" border="0" id="AboutMenu1"
-                                onMouseOver="MM_showMenu(window.mm_menu_0324093759_0,0,22,null,'AboutMenu1')"
-                                onMouseOut="MM_startTimeout();"/></a></td>
-                        <td width="130" height="22" align="left" valign="top"><a href="SchoolCampaign.html"
-                                                                                 onMouseOut="MM_swapImgRestore()"
-                                                                                 onMouseOver="MM_swapImage('OurImpact','','../PiEimages/PiE_NavR_03.gif',1)"><img
-                                src="../PiEimages/PiE_Nav_03.gif" alt="Our Impact" name="OurImpact" width="130"
-                                height="22" border="0" id="ImpactMenu2"
-                                onMouseOver="MM_showMenu(window.mm_menu_0324094724_0,0,22,null,'ImpactMenu2')"
-                                onMouseOut="MM_startTimeout();"/></a></td>
-                        <td width="130" height="22" align="left" valign="top"><a href="../03_Donate/WaysToGive.html"
-                                                                                 onMouseOut="MM_swapImgRestore()"
-                                                                                 onMouseOver="MM_swapImage('Donate','','../PiEimages/PiE_NavR_04.gif',1)"><img
-                                src="../PiEimages/PiE_Nav_04.gif" alt="Donate" name="Donate" width="130" height="22"
-                                border="0" id="DonateMenu3"
-                                onMouseOver="MM_showMenu(window.mm_menu_0324095416_0,0,22,null,'DonateMenu3')"
-                                onMouseOut="MM_startTimeout();"/></a></td>
-                        <td width="130" height="22" align="left" valign="top"><a href="../04_News/News.html"
-                                                                                 onMouseOut="MM_swapImgRestore()"
-                                                                                 onMouseOver="MM_swapImage('NewsEvents','','../PiEimages/PiE_NavR_05.gif',1)"><img
-                                src="../PiEimages/PiE_Nav_05.gif" alt="News & Events" name="NewsEvents" width="130"
-                                height="22" border="0" id="NewsMenu4"
-                                onMouseOver="MM_showMenu(window.mm_menu_0324095516_0,0,22,null,'NewsMenu4')"
-                                onMouseOut="MM_startTimeout();"/></a></td>
-                        <td width="130" height="22" align="left" valign="top"><a href="../01_About/FAQs.html"
-                                                                                 onMouseOut="MM_swapImgRestore()"
-                                                                                 onMouseOver="MM_swapImage('FAQs','','../PiEimages/PiE_NavR_06.gif',1)"><img
-                                src="../PiEimages/PiE_Nav_06.gif" alt="FAQs" name="FAQs" width="130" height="22"
-                                border="0"/></a></td>
-                        <td width="130" height="22" align="left" valign="top"><a href="../01_About/ContactInfo.html"
-                                                                                 onMouseOut="MM_swapImgRestore()"
-                                                                                 onMouseOver="MM_swapImage('ContactUs','','../PiEimages/PiE_NavR_07.gif',1)"><img
-                                src="../PiEimages/PiE_Nav_07.gif" alt="Contact Us" name="ContactUs" width="130"
-                                height="22" border="0"/></a></td>
+                        <td align="left" height="22" valign="top" width="180"><a href="../index.html"
+                                                                                 onmouseout="MM_swapImgRestore()"
+                                                                                 onmouseover="MM_swapImage('Home1','','../PiEimages/PiE_MenuGraphics/PiE_Nav_Home_blue.png',1)">
+                            <img src="../PiEimages/PiE_MenuGraphics/PiE_Nav_Home_green.png" alt="Home" name="Home1" id="HomeButton" border="0"
+                                 height="22" width="180"></a></td>
+                        <td align="left" height="22" valign="top" width="130"><a href="Mission.html"
+                                                                                 onmouseout="MM_swapImgRestore()"
+                                                                                 onmouseover="MM_swapImage('AboutMenu1','','../PiEimages/PiE_MenuGraphics/PiE_Nav_WhoWeAre_blue.png',1)">
+                            <img src="../PiEimages//PiE_MenuGraphics/PiE_Nav_WhoWeAre_green.png" alt="Who We Are" name="AboutMenu1" id="AboutMenu1"
+                                 onmouseover="MM_showMenu(window.mm_menu_0324093759_0,0,22,null,'AboutMenu1')"
+                                 onmouseout="MM_startTimeout();" border="0" height="22" width="130"></a></td>
+                        <td align="left" height="22" valign="top" width="130"><a href="../02_OurImpact/SchoolCampaign.html"
+                                                                                 onmouseout="MM_swapImgRestore()"
+                                                                                 onmouseover="MM_swapImage('OurImpact','','../PiEimages/PiE_MenuGraphics/PiE_Nav_HowWeHelp_blue.png',1)">
+                            <img src="../PiEimages/PiE_MenuGraphics/PiE_Nav_HowWeHelp_green.png" alt="How We Help" name="OurImpact" id="ImpactMenu2"
+                                 onmouseover="MM_showMenu(window.mm_menu_0324094724_0,0,22,null,'ImpactMenu2')"
+                                 onmouseout="MM_startTimeout();" border="0" height="22" width="130"></a></td>
+                        <td align="left" height="22" valign="top" width="130"><a href="../03_Donate/HowToGive.html"
+                                                                                 onmouseout="MM_swapImgRestore()"
+                                                                                 onmouseover="MM_swapImage('Donate','','../PiEimages/PiE_MenuGraphics/PiE_Nav_HowToGive_blue.png',1)">
+                            <img src="../PiEimages/PiE_MenuGraphics/PiE_Nav_HowToGive_green.png" alt="How To Give" name="Donate" id="DonateMenu3"
+                                 onmouseover="MM_showMenu(window.mm_menu_0324095416_0,0,22,null,'DonateMenu3')"
+                                 onmouseout="MM_startTimeout();" border="0" height="22" width="130"></a></td>
+                        <td align="left" height="22" valign="top" width="130"><a href="../04_News/News.html"
+                                                                                 onmouseout="MM_swapImgRestore()"
+                                                                                 onmouseover="MM_swapImage('NewsEvents','','../PiEimages/PiE_MenuGraphics/PiE_Nav_PressInfo_blue.png',1)">
+                            <img src="../PiEimages/PiE_MenuGraphics/PiE_Nav_PressInfo_green.png" alt="Press &amp; Info" name="NewsEvents" id="NewsMenu4"
+                                 onmouseover="MM_showMenu(window.mm_menu_0324095516_0,0,22,null,'NewsMenu4')"
+                                 onmouseout="MM_startTimeout();" border="0" height="22" width="130"></a></td>
+                        <td align="left" height="22" valign="top" width="130"><a href="FAQs.html"
+                                                                                 onmouseout="MM_swapImgRestore()"
+                                                                                 onmouseover="MM_swapImage('FAQs','','../PiEimages/PiE_MenuGraphics/PiE_Nav_FAQs_blue.png',1)">
+                            <img src="../PiEimages/PiE_MenuGraphics/PiE_Nav_FAQs_green.png" alt="FAQs"
+                                 name="FAQs" border="0" height="22" width="130"></a>
+                        </td>
+                        <td align="left" height="22" valign="top" width="130"><a href="ContactInfo.html"
+                                                                                 onmouseout="MM_swapImgRestore()"
+                                                                                 onmouseover="MM_swapImage('ContactUs','','../PiEimages/PiE_MenuGraphics/PiE_Nav_ContactUs_blue.png',1)"><img
+                                src="../PiEimages/PiE_MenuGraphics/PiE_Nav_ContactUs_green.png" alt="Contact Us" name="ContactUs" border="0" height="22"
+                                width="130"></a></td>
                     </tr>
+                    </tbody>
                 </table>
+
+
+
             </div>
             <div id="Bar14">
                 <table id="InsideBodyTable" width="960" height="546" border="0" cellpadding="0" cellspacing="0">
@@ -155,7 +136,7 @@
                             <div id="LeftColumn">
                                 <table width="180" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
-                                        <td><img src="../PiEimages/p_Programs_04.jpg"/></td>
+                                        <td><img src="../PiEimages/p_Programs_03.jpg"/></td>
                                     </tr>
                                     <tr>
                                         <td height="3" bgcolor="#E96F23"><img src="../PiEimages/spacer.gif" width="180"
@@ -166,15 +147,19 @@
 
                                             <div style="margin-left:12px; margin-right:4px;">
                                                 <!-- #BeginLibraryItem "/Library/programs.lbi" --><p class="bold9blue">
-                                                Our Programs</p>
+                                                How We Help</p>
 
-                                                <p class="bold9gray"><a href="SchoolCampaign.html" class="link_GrayDot">Schools&nbsp;Campaign</a><br>
-                                                    <!--                          <a href="hyt.html" class="link_GrayDot">Honor&nbsp;Your&nbsp;Teacher</a><br>	--->
-                                                    <a href="TeacherGrants.html" class="link_GrayDot">Teacher&nbsp;Grants</a><br>
-                                                    <a href="CommunitySupport.html" class="link_GrayDot">Community&nbsp;Support</a><br>
-                                                    <a href="business_partners_campaign.html" class="link_GrayDot">Business&nbsp;Partners</a><br>
+                                                <p class="bold9gray">
+                                                    <a href="SchoolCampaign.html" class="link_GrayDot">Schools&nbsp;Campaign</a>     <br>
+                                                    <a href="ElementaryTargets.html" class="link_GrayDot">Elementary School</a> <br>
+                                                    <a href="MiddleTargets.html" class="link_GrayDot">Middle School</a>             <br>
+                                                    <a href="HighTargets.html" class="link_GrayDot">High School</a>
 
-                                                </p><!-- #EndLibraryItem --></div>
+                                                    <a href="TeacherGrants.html" class="link_GrayDot">Teacher&nbsp;Grant</a>
+
+                                                    <a href="CommunitySupport.html" class="link_GrayDot">Community&nbsp;Support</a>
+                                                 </p>
+                                                <!-- #EndLibraryItem --></div>
                                         </td>
                                     </tr>
                                 </table>
@@ -188,158 +173,54 @@
                                 <p class="subGray10">Our Programs<br>
                                     <span class="subBlue16">Schools Campaign</span></p>
 
+                                <!--<p class="subGray10"><img src="../PiEimages/PiE_Charts1_1elem.jpg" width="153"
+                                                          height="174"><img src="../PiEimages/PiE_Charts1_2middle.jpg"
+                                                                            width="153" height="174"><img
+                                        src="../PiEimages/PiE_Charts1_3high.jpg" width="175" height="174"></p>-->
+
                                 <p class="body10">
+                                    Thanks to the generosity of our donors, PiE dollars have become crucial at PAUSD
+                                    schools. PiE collects donations from generous families, community members and
+                                    businesses for funding target areas that reflect school district needs and
+                                    priorities deemed most impactful by principals and parents as revealed in annual
+                                    meetings, surveys, and focus groups. PiE uses these funding targets to allow parent
+                                    and community donors to better understand how their donations will be spent while
+                                    providing the flexibility for principals and parents to choose how best to use the
+                                    donated funds on every PAUSD campus. In addition, in case of severe budget cuts,
+                                    gifts to PiE may also be used to restore key programs and staff that would otherwise
+                                    be lost.</p>
+                                <p class="body10">
+                                    For more information on PiE funding targets for 2012-13 and how it impacts each
+                                    school please use the following links:
 
-                                <table width="100%" border="0" cellpadding="2" cellspacing="4">
+                                </p>
 
-                                    <tr>
-                                        <td width="39%" valign="top"><span class="subBlue22"><strong>Elementary
-                                            Schools</strong></span></td>
-                                        <td width="32%" valign="top"><span class="subBlue22"><strong>Middle
-                                            Schools</strong></span></td>
-                                        <td width="29%" valign="top"><span class="subBlue22"><strong>High
-                                            Schools</strong></span></td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="3" valign="top">
-                                            <hr style="width:530px; color:#CCC"/>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><span class="body10"><a
-                                                href="addison_elementary.html">Addison Elementary School</a></span></td>
-                                        <td valign="top" class="body10"><a href="jlsmiddleschool.html">JLS Middle
-                                            School</a></td>
-                                        <td valign="top" class="body10"><a href="gunnhighschool.html">Gunn High
-                                            School</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><span class="body10"><a
-                                                href="Barronpark_elementary.html">Barron Park Elementary
-                                            School</a></span></td>
-                                        <td valign="top" class="body10"><a href="jordanmiddleschool.html">Jordan Middle
-                                            School</a></td>
-                                        <td valign="top" class="body10"><a href="paloaltohighschool.html"
-                                                                           class="body10">Palo Alto High School</a><a
-                                                href="paloaltohighschool.html"></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="duveneck_elementary.html"
-                                                                           class="body10">Duveneck Elementary School</a>
-                                        </td>
-                                        <td valign="top"><a href="termanmiddleschool.html" class="body10">Terman Middle
-                                            School</a></td>
-                                        <td valign="top"><a href="paloaltohighschool.html" class="body10"></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="elcarmelo_elementary.html">El Carmelo
-                                            Elementary School</a></td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="escondido_elementary.html">Escondido
-                                            Elementary School</a></td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="fairmeadow_elementary.html">Fairmeadow
-                                            Elementary School</a></td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="hoover_elementary.html">Hoover
-                                            Elementary School</a></td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="juanabriones_elementary.html">Juana
-                                            Briones Elementary School</a></td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="nixon_elementary.html">Nixon Elementary
-                                            School</a></td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="ohlone_elementary.html">Ohlone
-                                            Elementary School</a></td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="paloverde_elementary.html">Palo Verde
-                                            Elementary School</a></td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="walterhays_elementary.html">Walter Hays
-                                            Elementary School</a></td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                    <tr>
-                                        <td valign="top" class="body10"><a href="young5program.html">Young 5 Program</a>
-                                        </td>
-                                        <td valign="top"></td>
-                                        <td valign="top"></td>
-                                    </tr>
-                                </table>
-
-                                <br><BR>
-
-                                <p class="body10">Thanks to the generosity of our donors, PiE dollars have become
-                                    crucial at PAUSD schools. At the typical elementary school, PiE now provides more
-                                    than two-thirds of the flexible dollars used by principals for school programs. At
-                                    the secondary schools, PiE dollars represent more than 60% of principals’ flexible
-                                    funds. PiE dollars make the difference for every child in PAUSD, and every dollar we
-                                    receive in donations helps keep our schools outstanding.</p><BR>
-                                <BR>
-
-                                <p class="body10"><span class="bold10blue">At our elementary schools</span>, PiE funds
-                                    make sure that those extra pairs of hands (general classroom aides or instructional
-                                    assistants) are in the classroom regularly to support individual and small group
-                                    learning. Supplemental science instruction provided by PiE helps elementary students
-                                    discover, hands-on, how things work. And PiE funds the Spectra Art program for the
-                                    entire district, nurturing our budding artists and building confidence in kids
-                                    across PAUSD.</p><BR>
-                                <BR>
-
-                                <p class="body10"><span class="bold10blue">At the middle school level</span>, PiE funds
-                                    make more counselors available to more kids, allowing counselors to stay with their
-                                    student cohorts through all three grades, forming deeper and more meaningful
-                                    relationships. PiE funding has allowed Jordan to add electives like Chorus and
-                                    creative writing, JLS to add public speaking, and Terman to offer drama. Mentors at
-                                    all three schools help teachers leverage technology to maximize teaching time, and
-                                    next year will mentor teachers in writing and reading.</p><BR>
-                                <BR>
-
-                                <p class="body10"><span class="bold10blue">At our high schools</span>, PiE pays for
-                                    additional counselors at both schools, making counseling more accessible to more
-                                    students. PiE also pays for staffing to help improve College and Career Centers,
-                                    including counseling staff and essay workshops at Paly. PiE also helps staff
-                                    programs that ensure college readiness for all students. PiE dollars fund the
-                                    popular engineering curriculum at Gunn, and for an aide for Paly’s biotechnology
-                                    elective and other exciting science and technology courses.</p><BR>
-                                <BR>
-
-                                <p class="body10">Our schools campaign will run through January 27, 2012 and your
-                                    support is crucial. Please see below for specifics about how PiE dollars are used at
-                                    every school in Palo Alto, and then consider the most significant gift your family
-                                    can afford to make. Every day, PiE dollars help preserve an outstanding public
-                                    education in Palo Alto. Right now, we’re raising funds for the next school year
-                                    (2012-13), and given state and federal budget issues we’re likely to need your help
-                                    more than ever before. Please give today to preserve people and programs that make
-                                    our schools outstanding. Thank you!</p></p>
                                 <p class="body10"><br>
                                 </p>
+                                <div id="Elementary">
+                                    <span class="body9"><a href="ElementaryTargets.html"
+                                                         class="bold10orange">
+                                        <img src="../PiEimages/ButtonGelOrange12.jpg" alt="" width="14"
+                                          height="14" border="0" align="bottom"> &nbsp;Elementary School Targets</a>
+                                    </span>
+                                </div>
+                                <br>
+                                <div id="Middle">
+                                    <span class="body9"><a href="MiddleTargets.html"
+                                                           class="bold10orange">
+                                        <img src="../PiEimages/ButtonGelOrange12.jpg" alt="" width="14"
+                                             height="14" border="0" align="bottom"> &nbsp;Middle School Targets</a>
+                                    </span>
+                                </div>
+                                <br>
+                                <div id="High">
+                                    <span class="body9"><a href="HighSchoolTargets.html"
+                                                           class="bold10orange">
+                                        <img src="../PiEimages/ButtonGelOrange12.jpg" alt="" width="14"
+                                             height="14" border="0" align="bottom"> &nbsp;High School Targets</a>
+                                    </span>
+                                </div>
+
 
                                 <p class="body10"><br>
                                 </p>
@@ -384,13 +265,14 @@
 
 <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js'
+    type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
     try {
-        var pageTracker = _gat._getTracker("UA-10269040-11");
-        pageTracker._trackPageview();
-    } catch(err) {
-    }</script>
+    var pageTracker = _gat._getTracker("UA-10269040-11");
+    pageTracker._trackPageview();
+    } catch(err) {}
+</script>
 </body>
 </html>
