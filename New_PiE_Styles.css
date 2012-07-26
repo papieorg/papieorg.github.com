@@ -9,7 +9,7 @@ a:link {
 p {
         color: #3B3B3B;
         font-size: 9pt;
-        font-weight: normal;
+        font-weight: normal;      
 }
 
 .bold9orange {
@@ -20,6 +20,13 @@ p {
     line-height: 1.2em;
     text-decoration: none;
     }
+
+#Navigation_Bar_Top_Spacer {
+        width: 960px;
+        height: 4px;
+        background-color: #87CEFA; /* lightskyblue */
+        vertical-align: top;
+        }
 
 #Main_Column_Middle_Div {
         border-top: 2px solid grey;
@@ -86,11 +93,28 @@ ul#sidebar_flushleft_list li {
         text-align: left;
 }
 
+#sidebar_flushleft_link_list {
+        margin-left:.5em; 
+        padding-left:.5em;
+        }
+        
+ul#sidebar_flushleft_link_list li {
+        font-size: 9pt;
+        list-style-type: none;
+        text-align: left;
+}
+
+
 div#RightColumn  a {
         color: #E96F23;
 }
 
 #RightColumn_SubDiv {
+        border-top: 2px solid grey;
+        padding: 1.2em 0;
+}
+
+#Sidebar_SubDiv {
         border-top: 2px solid grey;
         padding: 1.2em 0;
 }
