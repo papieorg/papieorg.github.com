@@ -1,6 +1,4 @@
-@charset
-"utf-8"
-;
+@charset "utf-8";
 
 a:link {
         text-decoration: none;
@@ -12,9 +10,30 @@ p {
         font-weight: normal;      
 }
 
+.page_header_element {
+        height: 159px;
+        }
+
+#PiE_Logo_img {
+        border: 0;
+        height: 86px;
+        margin: 25px 0 0 10px;
+        /*padding: 25px 0 0 10px;*/
+        width:171px;
+        }
+
+.left_column_link {
+        margin: 0 0 5px 0;
+        }
+        
+.left_column_link a:hover {
+            text-decoration: underline;
+        }
+
+
 #Main_Column_Middle_Div {
-        border-top: 2px solid grey;
-        width: 552px;
+        border-top: 2px solid gray;
+        width: 528px;
         }
         
 div#Main_Column_Middle_Div h2 {
@@ -39,7 +58,7 @@ div#Main_Column_Middle_Div li {
 
 div#Main_Column_Middle_Div li a {
         color: #5a78b0;
-        text_decoration: none;
+        text-decoration: none;
 }
 
 div#Main_Column_Middle_Div li p a {
@@ -61,7 +80,7 @@ div#Main_Column_Middle_Div li li a {
 }
 
 div#Main_Column_LeftBorder_Div {
-        border-right: 2px solid grey;
+        border-right: 2px solid gray;
         height: 600px;
         width: 552px;
 }
@@ -88,37 +107,44 @@ ul#sidebar_flushleft_link_list li {
         text-align: left;
 }
 
+/* temporary
+#RightColumn {
+        border: 1px solid red;  
+        }
+*/
 
 div#RightColumn  a {
         color: #E96F23;
 }
 
-#RightColumn_SubDiv {
-        border-top: 2px solid grey;
+.RightColumn_SubDiv {
+        border-top: 2px solid gray;
         padding: 1.2em 0;
 }
 
 #Sidebar_SubDiv {
-        border-top: 2px solid grey;
+        border-top: 2px solid gray;
         padding: 1.2em 0;
 }
 
 #DonateNow_button {
-        align: center;
         height: 73px;
         padding: 2em 0em;
         width: 170px;
 }
 
 #Business_Partner {
-        align: center;
-        height: 75px
+        height: 75px;
         margin-top: 1.2em;
         margin-right: auto;
         margin-bottom: 1.2em;
         margin-left: auto;
         width: 154px;
 }
+
+.rounded_square {
+        padding: 0 8px 0 0;
+        }
 
 .clearfloats {clear: both;}
 
