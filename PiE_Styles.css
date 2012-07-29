@@ -46,6 +46,7 @@ a:visited {
     line-height: 1.2em;
 }
 
+/*RYS: Please update sBulletList1 below if you change this*/
 .body10 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
@@ -590,4 +591,48 @@ tr.menuBar{
         }   
 
 
+
+.sBulletList1 > li {
+    /*<img scr="../PiEimages/TriangleOrange11.gif"/>*/
+    /*color: blue;*/
+    /*list-style-type: none;*/
+    padding-bottom: 1em;
+    list-style-image:url('./PiEimages/TriangleOrange11.gif');
+
+    /*Copied from body10*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.sClickList1 > li a{
+     /* copied from blue10Bold */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #1F408B;
+
+    text-decoration: none;
+
+    list-style-image:url('./PiEimages/ButtonGelOrange12.jpg') ;
+
+
+}
+
+.sClickList1 > li{
+     /* copied from blue10Bold */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #1F408B;
+
+    text-decoration: none;
+    padding-bottom: 1em;
+    list-style-image:url('./PiEimages/ButtonGelOrange12.jpg') ;
+
+
+}
 
