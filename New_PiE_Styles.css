@@ -33,6 +33,7 @@ p {
 
 #Main_Column_Middle_Div {
         border-top: 2px solid gray;
+        margin-right: 24px;
         width: 528px;
         }
         
@@ -82,7 +83,7 @@ div#Main_Column_Middle_Div li li a {
 div#Main_Column_LeftBorder_Div {
         border-right: 2px solid gray;
         height: 600px;
-        width: 552px;
+        width: 526px;
 }
 
 #sidebar_flushleft_list {
@@ -107,7 +108,7 @@ ul#sidebar_flushleft_link_list li {
         text-align: left;
 }
 
-/* temporary
+/* temporary 
 #RightColumn {
         border: 1px solid red;  
         }
