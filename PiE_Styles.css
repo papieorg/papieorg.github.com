@@ -4,7 +4,7 @@
 
 a:link {
     color: #3B3B3B;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 a:hover {
@@ -504,6 +504,53 @@ a:visited {
     border-right-width: thin;
 }
 
+#LeftNavMenuBar{
+
+    margin-left:12px;
+    margin-right:4px;
+
+    /*copied from bold9Gray*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-size: 0.72em;*/
+    font-weight: bold;
+   /*color: #3B3B3B;*/
+    color: blue;
+
+   line-height: 1.64em;
+   text-decoration: none;
+    /*copied from bold9Gray*/
+
+
+}
+
+#LeftNavMenuBar h2 {
+
+    /*copied from link_GrayDot */
+    color: #333333;
+    text-decoration: none;
+    /*copied from link_GrayDot*/
+
+}
+
+#LeftNavMenuBar a:link {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.72em;
+   font-weight: bold;
+   color: #3B3B3B;
+   line-height: 1.64em;
+   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
 .style2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
@@ -580,16 +627,6 @@ tr.menuBar{
 
 /* end of menubar related styles*/
 
-    
-/* Added by Bill Cortright - July 2012 */
-
-#Navigation_Bar_Top_Spacer {
-        width: 960px;
-        height: 4px;
-        background-color: #4682B4; /* steelblue */
-        vertical-align: top;
-        }   
-
 
 
 .sBulletList1 > li {
@@ -636,3 +673,44 @@ tr.menuBar{
 
 }
 
+/* Added by Bill Cortright - July 2012 */
+
+#Navigation_Bar_Top_Spacer {
+        width: 960px;
+        height: 4px;
+        background-color: #4682B4; /* steelblue */
+        vertical-align: top;
+        }
+
+div#RightColumn  a {
+        color: #E96F23;
+}
+
+.RightColumn_SubDiv {
+        border-top: 2px solid gray;
+        padding: 1.2em 0;
+}
+
+
+
+#sidebar_flushleft_list {
+        margin-left:.5em;
+        padding-left:.5em;
+        }
+
+ul#sidebar_flushleft_list li {
+        font-size: 9pt;
+        list-style-type: disc;
+        text-align: left;
+}
+
+#sidebar_flushleft_link_list {
+        margin-left:.5em;
+        padding-left:.5em;
+        }
+
+ul#sidebar_flushleft_link_list li {
+        font-size: 9pt;
+        list-style-type: none;
+        text-align: left;
+}

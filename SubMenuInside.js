@@ -1,4 +1,4 @@
-<!--To Create Menus
+<!--To Create Menus -->
 function mmLoadMenus() {
   if (window.mm_menu_0324093759_0) return;
           window.mm_menu_0324093759_0 = new Menu("root",130,22,"Arial, Helvetica, sans-serif",10,"#505050","#FFFFFF","#CECECF","#386FAD","left","middle",3,0,800,-5,7,true,false,true,2,false,false);
@@ -39,7 +39,7 @@ function mmLoadMenus() {
   //mm_menu_0324095416_0.addMenuItem("Donations","location='../03_Donate/PersonalDonations.html'");
 //  mm_menu_0324095416_0.addMenuItem("Corporate/Realtor","location='../03_Donate/Corporate_Realtor.html'");
   mm_menu_0324095416_0.addMenuItem("Leadership&nbsp;Circle","location='../03_Donate/LeadershipCircle.html'");
-  mm_menu_0324095416_0.addMenuItem("We&nbsp;Give!","location='../03_Donate/DonorProfileOverview.html'");
+  mm_menu_0324095416_0.addMenuItem("Donor&nbsp;Profiles","location='../03_Donate/DonorProfileOverview.html'");
 
    mm_menu_0324095416_0.hideOnMouseOut=true;
    mm_menu_0324095416_0.bgColor='#555555';
