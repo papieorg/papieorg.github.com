@@ -4,12 +4,6 @@ a:link {
         text-decoration: none;
 }    
 
-p {
-        color: #3B3B3B;
-        font-size: 9pt;
-        font-weight: normal;      
-}
-
 .page_header_element {
         height: 159px;
         }
@@ -112,14 +106,6 @@ ul#sidebar_flushleft_link_list li {
         text-align: left;
 }
 
-*/
-
-/* temporary 
-#RightColumn {
-        border: 1px solid red;  
-        }
-*/
-
 /* moved to PiE_Style.css*/
 
 
@@ -179,13 +165,3 @@ div.float_left_div ul li {
          /* padding: 0.5em; */
         }
 
-#float_left_ul {
-         float: left;
-         padding: 0.5em;
-        }
- 
- ul#float_left_ul li {
-         font-size: 9pt;
-         list-style-type: none;
-         text-align: left;
-}
