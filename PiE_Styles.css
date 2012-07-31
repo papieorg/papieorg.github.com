@@ -4,7 +4,7 @@
 
 a:link {
     color: #3B3B3B;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 a:hover {
@@ -46,6 +46,7 @@ a:visited {
     line-height: 1.2em;
 }
 
+/*RYS: Please update sBulletList1 below if you change this*/
 .body10 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
@@ -503,6 +504,84 @@ a:visited {
     border-right-width: thin;
 }
 
+#LeftNavMenuBar{
+
+    margin-left:12px;
+    margin-right:4px;
+
+    /*copied from bold9Gray*/
+/*
+    font-family: Arial, Helvetica, sans-serif;
+*/
+    /*font-size: 0.72em;*/
+    font-weight: bold;
+   /*color: #3B3B3B;*/
+    color: blue;
+
+   line-height: 1.64em;
+   text-decoration: none;
+    /*copied from bold9Gray*/
+
+
+}
+
+#LeftNavMenuBar h2 {
+
+    /*copied from link_GrayDot */
+    color: #333333;
+    text-decoration: none;
+    /*copied from link_GrayDot*/
+
+}
+
+#LeftNavMenuBar a:link {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.72em;
+   font-weight: bold;
+   color: #3B3B3B;
+   line-height: 1.64em;
+   text-decoration: none;
+}
+
+#sTable_InsideHead {
+
+    width:960px;
+    height:80px;
+    border: 0;
+    /*cell-padding:0;*/
+    /*cell-spacing:0;*/
+    border-spacing: 0;
+    padding:  0;
+
+}
+
+
+#sTable_InsideHead td {
+    padding:  0;
+    /*background-color: red;*/
+
+}
+/*
+
+td1.td.sTable_InsideHead {
+    width:960px;
+    height:8px;
+    col-span:3px;
+    background-color:#1F408B;
+    img: "./PiEimages/spacer.gif"  ;
+
+
+}
+
+*/
+
+
+
+
+
+
 .style2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
@@ -542,8 +621,11 @@ tr.menuBar{
 
  /*  Menu bar related styles */
 
+
+
 .menuBar > td:hover {
-    background-color: #4682B4;
+    background-color: #2E82CC  ;
+        /*#4682B4;*/
 
 }
 
@@ -579,15 +661,104 @@ tr.menuBar{
 
 /* end of menubar related styles*/
 
-    
+
+
+.sBulletList1 > li {
+    /*<img scr="../PiEimages/TriangleOrange11.gif"/>*/
+    /*color: blue;*/
+    /*list-style-type: none;*/
+    padding-bottom: 1em;
+    list-style-image:url('./PiEimages/TriangleOrange11.gif');
+
+    /*Copied from body10*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.sClickList1 > li a{
+     /* copied from blue10Bold */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #1F408B;
+
+    text-decoration: none;
+
+    list-style-image:url('./PiEimages/ButtonGelOrange12.jpg') ;
+
+
+}
+
+.sClickList1 > li{
+     /* copied from blue10Bold */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #1F408B;
+
+    text-decoration: none;
+    padding-bottom: 1em;
+    list-style-image:url('./PiEimages/ButtonGelOrange12.jpg') ;
+
+
+}
+
 /* Added by Bill Cortright - July 2012 */
 
 #Navigation_Bar_Top_Spacer {
         width: 960px;
         height: 4px;
-        background-color: #4682B4; /* steelblue */
+        background-color: #2E82CC;
+            /* #4682B4; /* steelblue */
         vertical-align: top;
-        }   
+        }
+
+div#RightColumn  a {
+        color: #E96F23;
+}
+
+.RightColumn_SubDiv {
+        border-top: 2px solid gray;
+        padding: 1.2em 0;
+}
 
 
 
+#sidebar_flushleft_list {
+        margin-left:.5em;
+        padding-left:.5em;
+        }
+
+ul#sidebar_flushleft_list li {
+        font-size: 9pt;
+        list-style-type: disc;
+        text-align: left;
+}
+
+#sidebar_flushleft_link_list {
+        margin-left:.5em;
+        padding-left:.5em;
+        }
+
+ul#sidebar_flushleft_link_list li {
+        font-size: 9pt;
+        list-style-type: none;
+        text-align: left;
+
+
+
+}
+
+  /* should match the menu bar color */
+.sTopBar {
+    /*The top bar that's all the way on the top*/
+
+    width: 960px;
+    height: 8px;
+    background-color :#1F408B;
+
+}

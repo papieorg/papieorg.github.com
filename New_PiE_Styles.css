@@ -86,6 +86,10 @@ div#Main_Column_LeftBorder_Div {
         width: 526px;
 }
 
+/* moved to PiE_Style.css*/
+
+/*
+
 #sidebar_flushleft_list {
         margin-left:.5em; 
         padding-left:.5em;
@@ -108,12 +112,18 @@ ul#sidebar_flushleft_link_list li {
         text-align: left;
 }
 
+*/
+
 /* temporary 
 #RightColumn {
         border: 1px solid red;  
         }
 */
 
+/* moved to PiE_Style.css*/
+
+
+/*
 div#RightColumn  a {
         color: #E96F23;
 }
@@ -122,6 +132,10 @@ div#RightColumn  a {
         border-top: 2px solid gray;
         padding: 1.2em 0;
 }
+*/
+
+/* moved to PiE_Style.css*/
+
 
 #Sidebar_SubDiv {
         border-top: 2px solid gray;
