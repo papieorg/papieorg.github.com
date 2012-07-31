@@ -1,8 +1,8 @@
 <!--To Create Menus  -->
 function mmLoadMenus() {
   if (window.mm_menu_0324093759_0) return;
-          window.mm_menu_0324093759_0 = new Menu("root",130,22,"Arial, Helvetica, sans-serif",10,"#505050","#FFFFFF","#CECECF","#386FAD","left","middle",3,0,800,-5,7,true,false,true,2,false,false);
-   mm_menu_0324093759_0.addMenuItem("Mission","location='01_About/Mission.html'");
+  window.mm_menu_0324093759_0 = new Menu("root",130,22,"Arial, Helvetica, sans-serif",10,"#505050","#FFFFFF","#CECECF","#386FAD","left","middle",3,0,800,-5,7,true,false,true,2,false,false);
+  mm_menu_0324093759_0.addMenuItem("Mission","location='./01_About/Mission.html'");
   mm_menu_0324093759_0.addMenuItem("History","location='01_About/History.html'");
   mm_menu_0324093759_0.addMenuItem("Financial&nbsp;Performance","location='01_About/Financials.html'");
   mm_menu_0324093759_0.addMenuItem("Report&nbsp;to&nbsp;the&nbsp;Community","location= 'PiEimages/PiE_PDFs/PAPiE_annual_2010.pdf'");

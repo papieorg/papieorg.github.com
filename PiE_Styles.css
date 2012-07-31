@@ -545,8 +545,37 @@ a:visited {
    text-decoration: none;
 }
 
+#sTable_InsideHead {
+
+    width:960px;
+    height:80px;
+    border: 0;
+    /*cell-padding:0;*/
+    /*cell-spacing:0;*/
+    border-spacing: 0;
+    padding:  0;
+
+}
 
 
+#sTable_InsideHead td {
+    padding:  0;
+    /*background-color: red;*/
+
+}
+/*
+
+td1.td.sTable_InsideHead {
+    width:960px;
+    height:8px;
+    col-span:3px;
+    background-color:#1F408B;
+    img: "./PiEimages/spacer.gif"  ;
+
+
+}
+
+*/
 
 
 
@@ -595,7 +624,8 @@ tr.menuBar{
 
 
 .menuBar > td:hover {
-    background-color: #4682B4;
+    background-color: #2E82CC  ;
+        /*#4682B4;*/
 
 }
 
@@ -682,7 +712,8 @@ tr.menuBar{
 #Navigation_Bar_Top_Spacer {
         width: 960px;
         height: 4px;
-        background-color: #4682B4; /* steelblue */
+        background-color: #2E82CC;
+            /* #4682B4; /* steelblue */
         vertical-align: top;
         }
 
@@ -724,7 +755,10 @@ ul#sidebar_flushleft_link_list li {
 
   /* should match the menu bar color */
 .sTopBar {
+    /*The top bar that's all the way on the top*/
 
+    width: 960px;
+    height: 8px;
     background-color :#1F408B;
 
 }
