@@ -41,9 +41,18 @@ function mmLoadMenus() {
    mm_menu_0324095416_0.bgColor='#555555';
    mm_menu_0324095416_0.menuBorder=1;
    mm_menu_0324095416_0.menuLiteBgColor='#FFFFFF';
-
-
    mm_menu_0324095416_0.menuBorderBgColor='#777777';
+   
+   window.mm_menu_0324095466_0 = new Menu("root",130,22,"Arial, Helvetica, sans-serif",12,"#E96F23","#FFFFFF","#FFFFFF","#E96F23","left","middle",3,0,1000,-5,7,true,false,true,2,false,false);
+   mm_menu_0324095466_0.addMenuItem("Elementary&nbsp;Schools","location='02_OurImpact/ElementaryTargets.html'");
+   mm_menu_0324095466_0.addMenuItem("Middle&nbsp;Schools","location='02_OurImpact/MiddleTargets.html'");
+   mm_menu_0324095466_0.addMenuItem("High&nbsp;Schools","location='02_OurImpact/HighTargets.html'");
+   mm_menu_0324095466_0.hideOnMouseOut=true;
+   mm_menu_0324095466_0.bgColor='#555555';
+   mm_menu_0324095466_0.menuBorder=1;
+   mm_menu_0324095466_0.menuLiteBgColor='#FFFFFF';
+   mm_menu_0324095466_0.menuBorderBgColor='#777777';
+   
   window.mm_menu_0324095516_0 = new Menu("root",130,22,"Arial, Helvetica, sans-serif",10,"#505050","#FFFFFF","#CECECF","#386FAD","left","middle",3,0,1000,-5,7,true,false,true,2,false,false);
   mm_menu_0324095516_0.addMenuItem("Press&nbsp;Releases","location='04_News/News.html'");
   mm_menu_0324095516_0.addMenuItem("Media&nbsp;Coverage","location='04_News/MediaCoverage.html'");
