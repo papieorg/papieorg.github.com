@@ -707,6 +707,19 @@ tr.menuBar{
 
 }
 
+
+/* should match the menu bar color */
+.sTopBar {
+    /*The top bar that's all the way on the top*/
+
+    width: 960px;
+    height: 8px;
+    background-color :#1F408B;
+
+}
+
+
+
 /* Added by Bill Cortright - July 2012 */
 
 #Navigation_Bar_Top_Spacer {
@@ -753,12 +766,3 @@ ul#sidebar_flushleft_link_list li {
 
 }
 
-  /* should match the menu bar color */
-.sTopBar {
-    /*The top bar that's all the way on the top*/
-
-    width: 960px;
-    height: 8px;
-    background-color :#1F408B;
-
-}

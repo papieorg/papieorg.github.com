@@ -1,17 +1,15 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<!--
+    <script language="javascript">
+            //Redirect to the SSL version of the page
+            if (document.location.protocol != "https:") {
+                document.location.href = "https://www.papie.org" + document.location.pathname;
 
-
- <!--             <script language="javascript">
-                  //Redirect to the SSL version of the page
-                  if (document.location.protocol != "https:") {
-                      document.location.href = "https://" + document.domain + document.location.pathname;
-                  &ndash;&gt;
-              }
-              ;
-          </script>
--->
+        }
+        ;
+    </script>-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 
@@ -173,6 +171,10 @@ suggested adjusted donation amounts.
 <p class="body10"> </p>
 
 <FORM action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<!--
+<FORM action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+-->
+
 <TABLE cellSpacing="0" cellPadding="5" border="1">
 <TBODY>
 <TR>
@@ -231,7 +233,11 @@ suggested adjusted donation amounts.
 <TR>
     <TD>
         <INPUT type="hidden" value="_xclick-subscriptions" name="cmd">
+<!--
+        <INPUT type="hidden" value="rshen_1339197460_biz@papie.org" name="business">
+-->
         <INPUT type="hidden" value="donations@papie.org" name="business">
+
         <INPUT type="hidden" value="1" name="undefined_quantity">
         <INPUT type="hidden" value="FUND" name="on0">
         Fund
@@ -369,7 +375,9 @@ suggested adjusted donation amounts.
     <TD>Enter installment payment amount here, not the total donation amount;
         Minimum $100 per installment; minimum total payments $800
     </TD>
-    <TD><IMG height="1" alt="space" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" border="0">
+    <TD><!--IMG height="1" alt="space" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" border="0">
+        <INPUT type="hidden" value="PP-SubscriptionsBF" name="bn">-->
+        <IMG height="1" alt="space" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" border="0">
         <INPUT type="hidden" value="PP-SubscriptionsBF" name="bn">
         $
         <INPUT size="8" name="a3">

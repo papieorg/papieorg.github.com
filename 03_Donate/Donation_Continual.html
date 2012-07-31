@@ -2,18 +2,19 @@
 <html>
 <head>
 
-    <!--
+<!--
 
-            <script language="javascript">
-                //Redirect to the SSL version of the page
-                if (document.location.protocol != "https:") {
-                    document.location.href = "https://www.papie.org" + document.location.pathname;
+    <script language="javascript">
+            //Redirect to the SSL version of the page
+            if (document.location.protocol != "https:") {
+                document.location.href = "https://www.papie.org" + document.location.pathname;
 
-    &ndash;&gt;
-            }
-            ;
-        </script>
+        }
+        ;
+    </script>
+
 -->
+
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -148,9 +149,7 @@
                             <a href="../03_Donate/DonationsForms.html" class="link_GrayDot">Donations Forms</a><br>
                             <a href="../03_Donate/LeadershipCircle.html" class="link_GrayDot">Leadership Circle</a><br>
                             <a href="DonorProfileOverview.html" class="link_GrayDot">Donor Profiles</a><br>
-                            <br>
-                            <a href="../01_About/FAQs.html" class="link_GrayDot">FAQs</a><br>
-                            <a href="../01_About/ContactInfo.html" class="link_GrayDot">Contact Us</a><br>
+
 
                         </p>
                     </div>
@@ -183,28 +182,14 @@ the following year. Your contribution will be recognized in our annual
 report based on the preceding school year.   </p>
 
 
-<!--
-<p class="body10">&nbsp;</p>
-<TABLE cellSpacing="0" cellPadding="5" width="600" align="center" border="1">
-    <TBODY>
-    <TR>
-        <TD><p align="center" class="body10"><STRONG>Suggested total donation amounts are:</STRONG></p>
-
-            <p align="center" class="body10">$800 (one child), with 2% $816<BR>
-                $1,600 (two children), with 2% $1,632<BR>
-                $2,400 (three children), with 2% $2,442<BR>
-                or any amount that is significant to your family to support schools.<BR><BR>
-
-                (Click <a href="http://www.papie.org/03_Donate/creditcard.html">here</a> for additional donation amounts
-                adjusted by 2%)<BR>
-                All donations are warmly welcomed, and those over $50 will be recognized in our Annual Report.</p></TD>
-    </TR>
-    </TBODY>
-</TABLE>
--->
 <p class="body10"> </p>
 
-<FORM action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+<!--
+<FORM action="https://paypal.com/cgi-bin/webscr" method="post">
+-->
+<FORM action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+
 <table border="1" cellpadding="5" cellspacing="0" width="100%">
 <TBODY>
 <TR>
@@ -262,11 +247,14 @@ report based on the preceding school year.   </p>
 </TR>
 <TR>
     <TD>
+
+
+     <!--   <INPUT type="hidden" value="_xclick-subscriptions" name="cmd">
+               <INPUT type="hidden" value="rshen_1338833633_biz@papie.org" name="business">-->
+        <!----><INPUT type="hidden" value="donations@papie.org" name="business">
+
         <INPUT type="hidden" value="_xclick-subscriptions" name="cmd">
-        <INPUT type="hidden" value="rshen_1338833633_biz@papie.org" name="business">
-<!--
         <INPUT type="hidden" value="donations@papie.org" name="business">
--->
 
         <INPUT type="hidden" value="1" name="undefined_quantity">
         <INPUT type="hidden" value="FUND" name="on0">
@@ -403,9 +391,16 @@ report based on the preceding school year.   </p>
 </TR>
 
 <TR>
+
+   <!-- <IMG height="1" alt="space" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" border="0">
+          <INPUT type="hidden" value="PP-SubscriptionsBF" name="bn">-->
     <TD> Monthly Amount (Minimum
     $100 per installment; Minimum total payments $800)</TD>
-    <td><INPUT size="8" name="a3">
+    <td>
+        <IMG height="1" alt="space" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" border="0">
+                 <INPUT type="hidden" value="PP-SubscriptionsBF" name="bn">
+        $
+        <INPUT size="8" name="a3">
         <input type="hidden" name="src" value="1">
         <INPUT type="hidden" value="1" name="p3">
         <INPUT type="hidden" value="M" name="t3">
@@ -516,11 +511,6 @@ report based on the preceding school year.   </p>
 
 
 
-
-
-
-
-
 </td>
 </tr>
 </table>
@@ -546,10 +536,10 @@ report based on the preceding school year.   </p>
 </td>
 </tr>
 </table>
-
+<!--
 <map name="ToDonate">
     <area shape="rect" coords="10,27,108,55" href="DonationsForms.html.html">
-</map>
+</map>-->
 
 <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
