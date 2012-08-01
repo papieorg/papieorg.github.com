@@ -766,3 +766,12 @@ ul#sidebar_flushleft_link_list li {
 
 }
 
+.sSchoolList {
+    padding-left: 12px;
+    margin-top: 0;
+    margin-bottom: 6px;
+    /*-webkit-padding-start: 12px;*/
+    /*-webkit-margin-before: 0;*/
+    /*-webkit-margin-after: 6px;*/
+}
+
