@@ -177,6 +177,15 @@ a:visited {
 }
 
 
+.bold12orange {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #E96F23;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
 .bold14orange {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
@@ -702,7 +711,22 @@ tr.menuBar{
 
     text-decoration: none;
     padding-bottom: 1em;
-    list-style-image:url('./PiEimages/ButtonGelOrange12.jpg') ;
+    /*list-style-image:url('./PiEimages/ButtonGelOrange12.jpg') ;*/
+
+
+}
+
+.sTableList {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #1F408B;
+
+    text-decoration: none;
+    padding-bottom: 1em;
+    /*list-style-image:url('./PiEimages/ButtonGelOrange12.jpg') ;*/
+
+
 
 
 }
