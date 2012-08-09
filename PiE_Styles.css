@@ -570,7 +570,7 @@ a:visited {
 #sTable_InsideHead td {
     padding:  0;
     /*background-color: red;*/
-
+    /*color: #5a78b0;*/
 }
 /*
 
@@ -730,6 +730,13 @@ tr.menuBar{
 
 
 }
+
+.sTableList > tr td a {
+
+    color: #1F408B;
+
+}
+
 
 
 /* should match the menu bar color */
