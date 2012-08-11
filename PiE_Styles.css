@@ -3,8 +3,12 @@
 ;
 
 a:link {
-    color: #3B3B3B;
+    /*color: #3B3B3B;*/
+
     /*text-decoration: underline;*/
+
+    color: #1F408B;
+    font-weight: bold;
 }
 
 a:hover {
