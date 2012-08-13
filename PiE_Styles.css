@@ -23,7 +23,7 @@ a:active {
 }
 
 a:visited {
-    color: #3B3B3B;
+    color: #1F408B;
     text-decoration: none;
 
 }
@@ -416,8 +416,24 @@ a:visited {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 12pt;
-    text-decoration: none
+    text-decoration: none;
+
 }
+
+
+a.subOrange12:link {
+    color: #E96F23;
+}
+
+a.subOrange12:visited{
+    color: #E96F23;
+}
+
+a.subOrange12:hover{
+    color: #1F408B;
+}
+
+
 
 .subGreen12 {
     color: #53AC38;
@@ -810,3 +826,8 @@ ul#sidebar_flushleft_link_list li {
     /*-webkit-margin-after: 6px;*/
 }
 
+
+.sHang {
+    text-indent: -2em;
+    margin-left: 2em;
+}
