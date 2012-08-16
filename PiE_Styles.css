@@ -2,31 +2,32 @@
 "utf-8"
 ;
 
-a:link {
-    /*color: #3B3B3B;*/
-
-    /*text-decoration: underline;*/
-
-    color: #1F408B;
+a {
+    text-decoration: none;
+    color: #E96F23;
     font-weight: bold;
 }
+
+/*a:link {*/
+/*}*/
 
 a:hover {
+    /*color: blue;*/
     color: #1F408B;
-    text-decoration: none;
-    font-weight: bold;
 }
-
 a:active {
     color: #3B3B3B;
-    text-decoration: none;
 }
 
 a:visited {
-    color: #1F408B;
-    text-decoration: none;
-
+    color: #E96F23;
 }
+
+a:visited:hover {
+    color: #1F408B;
+}
+
+
 
 #table {
     border-collapse: collapse;
@@ -538,21 +539,15 @@ a.subOrange12:hover{
     margin-left:12px;
     margin-right:4px;
 
-    /*copied from bold9Gray*/
-/*
-    font-family: Arial, Helvetica, sans-serif;
-*/
-    /*font-size: 0.72em;*/
-    font-weight: bold;
-   /*color: #3B3B3B;*/
-    color: blue;
-
+   font-weight: bold;
    line-height: 1.64em;
    text-decoration: none;
     /*copied from bold9Gray*/
 
 
 }
+
+/*===========*/
 
 #LeftNavMenuBar h2 {
 
@@ -563,16 +558,34 @@ a.subOrange12:hover{
 
 }
 
+#LeftNavMenuBar a {
+    color: #3B3B3B;
+}
+
 #LeftNavMenuBar a:link {
 
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.72em;
+   font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
    color: #3B3B3B;
    line-height: 1.64em;
    text-decoration: none;
 }
+
+#LeftNavMenuBar a:visited {
+    /*color: blue;*/
+    color: #3B3B3B;
+    text-decoration: underline;
+}
+
+#LeftNavMenuBar a:hover {
+    /*color: blue;*/
+    color: #1F408B;
+    text-decoration: underline;
+}
+
+
+   /*===================*/
 
 #sTable_InsideHead {
 
@@ -706,20 +719,20 @@ tr.menuBar{
     text-decoration: none;
 }
 
-.sClickList1 > li a{
-     /* copied from blue10Bold */
+/*.sClickList1 > li a{*/
+      /*copied from blue10Bold */
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt;
-    font-weight: bold;
-    color: #1F408B;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-size: 10pt;*/
+    /*font-weight: bold;*/
+    /*color: #1F408B;*/
 
-    text-decoration: none;
+    /*text-decoration: none;*/
 
-    list-style-image:url('./PiEimages/ButtonGelOrange12.jpg') ;
+    /*list-style-image:url('./PiEimages/ButtonGelOrange12.jpg') ;*/
 
 
-}
+/*}*/
 
 .sClickList1 > li{
      /* copied from blue10Bold */
@@ -780,10 +793,12 @@ tr.menuBar{
             /* #4682B4; /* steelblue */
         vertical-align: top;
         }
+/*
 
 div#RightColumn  a {
         color: #E96F23;
 }
+*/
 
 .RightColumn_SubDiv {
         border-top: 2px solid gray;
@@ -824,6 +839,18 @@ ul#sidebar_flushleft_link_list li {
     /*-webkit-padding-start: 12px;*/
     /*-webkit-margin-before: 0;*/
     /*-webkit-margin-after: 6px;*/
+}
+
+.sSchoolList li a {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.72em;
+    font-weight: bold;
+    /*color: #3B3B3B;*/
+    line-height: 1.24em;
+    text-decoration: none;
+
 }
 
 

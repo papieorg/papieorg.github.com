@@ -1,8 +1,9 @@
 @charset "utf-8";
 
-a:link {
-        text-decoration: none;
-}    
+/*a:link {*/
+        /*text-decoration: none;*/
+        /*color: #E96F23;*/
+/*}*/
 
 .page_header_element {
         height: 159px;
@@ -51,14 +52,23 @@ div#Main_Column_Middle_Div li {
         background: url(PiEimages/ButtonMoreBlue12.png) 0 3px no-repeat;
 }
 
+/*
 div#Main_Column_Middle_Div li a {
+
         color: #5a78b0;
         text-decoration: none;
 }
+*/
 
+div#Main_Column_Middle_Div li a:hover{
+        color: #1F408B;
+
+}
+
+/*
 div#Main_Column_Middle_Div li p a {
         color: #E96F23;
-}
+}*/
     
 div#Main_Column_Middle_Div li li {
             color: #3B3B3B;
