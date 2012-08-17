@@ -858,3 +858,8 @@ ul#sidebar_flushleft_link_list li {
     text-indent: -2em;
     margin-left: 2em;
 }
+
+input {
+filter:chroma(color=#000000);
+border:none;
+}
