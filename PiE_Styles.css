@@ -859,7 +859,11 @@ ul#sidebar_flushleft_link_list li {
     margin-left: 2em;
 }
 
-input {
-filter:chroma(color=#000000);
-border:none;
+/*input {*/
+/*filter:chroma(color=#000000);*/
+/*border:none;*/
+/*}*/
+
+a, img {
+    border:none;
 }
