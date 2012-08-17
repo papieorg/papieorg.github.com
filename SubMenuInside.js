@@ -33,8 +33,8 @@ function mmLoadMenus() {
    mm_menu_0324094724_0.menuLiteBgColor='#FFFFFF';
    mm_menu_0324094724_0.menuBorderBgColor='#777777';
   window.mm_menu_0324095416_0 = new Menu("root",130,22,"Arial, Helvetica, sans-serif",10,"#505050","#FFFFFF","#CECECF","#386FAD","left","middle",3,0,1000,-5,7,true,false,true,2,false,false);
-    mm_menu_0324095416_0.addMenuItem("How To Give","location='../03_Donate/HowToGive.html'");
-    mm_menu_0324095416_0.addMenuItem("Donation Forms","location='../03_Donate/DonationsForms.html'");
+    mm_menu_0324095416_0.addMenuItem("How&nbsp;To&nbsp;Give","location='../03_Donate/HowToGive.html'");
+    mm_menu_0324095416_0.addMenuItem("Donation&nbsp;Forms","location='../03_Donate/DonationsForms.html'");
 
 
   mm_menu_0324095416_0.addMenuItem("Leadership&nbsp;Circle","location='../03_Donate/LeadershipCircle.html'");
