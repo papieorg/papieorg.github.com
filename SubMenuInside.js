@@ -23,7 +23,7 @@ function mmLoadMenus() {
   mm_menu_0324094724_0.addMenuItem("School&nbsp;Campaign","location='../02_OurImpact/SchoolCampaign.html'");
   mm_menu_0324094724_0.addMenuItem("Teacher&nbsp;Grants","location='../02_OurImpact/TeacherGrants.html'");
 //  mm_menu_0324094724_0.addMenuItem("Community&nbsp;Support","location='../02_OurImpact/CommunitySupport.html'");
-  mm_menu_0324094724_0.addMenuItem("Business&nbsp;Partners","location='../02_OurImpact/business_partners_campaign.html'");
+//  mm_menu_0324094724_0.addMenuItem("Business&nbsp;Partners","location='../02_OurImpact/business_partners_campaign.html'");
 //  mm_menu_0324094724_0.addMenuItem("Business&nbsp;Partners","location='../02_OurImpact/BizPartners2012.html'");
  
 
@@ -38,6 +38,7 @@ function mmLoadMenus() {
   mm_menu_0324095416_0.addMenuItem("Leadership&nbsp;Circle","location='../03_Donate/LeadershipCircle.html'");
   mm_menu_0324095416_0.addMenuItem("Donor&nbsp;Profiles","location='../03_Donate/DonorProfileOverview.html'");
    mm_menu_0324095416_0.addMenuItem("Community&nbsp;Partners","location='../03_Donate/CommunityPartners.html'");
+      mm_menu_0324095416_0.addMenuItem("Business&nbsp;Partners","location='../03_Donate/business_partners_campaign.html'");
 
 
    mm_menu_0324095416_0.hideOnMouseOut=true;
