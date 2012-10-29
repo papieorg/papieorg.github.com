@@ -22,7 +22,7 @@ function mmLoadMenus() {
   window.mm_menu_0324094724_0 = new Menu("root",130,22,"Arial, Helvetica, sans-serif",10,"#505050","#FFFFFF","#CECECF","#386FAD","left","middle",3,0,1000,-5,7,true,false,true,2,false,false);
   mm_menu_0324094724_0.addMenuItem("School&nbsp;Campaign","location='../02_OurImpact/SchoolCampaign.html'");
   mm_menu_0324094724_0.addMenuItem("Teacher&nbsp;Grants","location='../02_OurImpact/TeacherGrants.html'");
-  mm_menu_0324094724_0.addMenuItem("Community&nbsp;Support","location='../02_OurImpact/CommunitySupport.html'");
+//  mm_menu_0324094724_0.addMenuItem("Community&nbsp;Support","location='../02_OurImpact/CommunitySupport.html'");
   mm_menu_0324094724_0.addMenuItem("Business&nbsp;Partners","location='../02_OurImpact/business_partners_campaign.html'");
 //  mm_menu_0324094724_0.addMenuItem("Business&nbsp;Partners","location='../02_OurImpact/BizPartners2012.html'");
  
@@ -35,10 +35,10 @@ function mmLoadMenus() {
   window.mm_menu_0324095416_0 = new Menu("root",130,22,"Arial, Helvetica, sans-serif",10,"#505050","#FFFFFF","#CECECF","#386FAD","left","middle",3,0,1000,-5,7,true,false,true,2,false,false);
     mm_menu_0324095416_0.addMenuItem("How&nbsp;To&nbsp;Give","location='../03_Donate/HowToGive.html'");
     mm_menu_0324095416_0.addMenuItem("Donation&nbsp;Forms","location='../03_Donate/DonationsForms.html'");
-
-
   mm_menu_0324095416_0.addMenuItem("Leadership&nbsp;Circle","location='../03_Donate/LeadershipCircle.html'");
   mm_menu_0324095416_0.addMenuItem("Donor&nbsp;Profiles","location='../03_Donate/DonorProfileOverview.html'");
+   mm_menu_0324095416_0.addMenuItem("Community&nbsp;Partners","location='../03_Donate/CommunityPartners.html'");
+
 
    mm_menu_0324095416_0.hideOnMouseOut=true;
    mm_menu_0324095416_0.bgColor='#555555';
