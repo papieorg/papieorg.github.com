@@ -36,9 +36,9 @@ function mmLoadMenus() {
     mm_menu_0324095416_0.addMenuItem("How&nbsp;To&nbsp;Give","location='../03_Donate/HowToGive.html'");
     mm_menu_0324095416_0.addMenuItem("Donation&nbsp;Forms","location='../03_Donate/DonationsForms.html'");
   mm_menu_0324095416_0.addMenuItem("Leadership&nbsp;Circle","location='../03_Donate/LeadershipCircle.html'");
-  mm_menu_0324095416_0.addMenuItem("Donor&nbsp;Profiles","location='../03_Donate/DonorProfileOverview.html'");
    mm_menu_0324095416_0.addMenuItem("Community&nbsp;Partners","location='../03_Donate/CommunityPartners.html'");
       mm_menu_0324095416_0.addMenuItem("Business&nbsp;Partners","location='../03_Donate/business_partners_campaign.html'");
+    mm_menu_0324095416_0.addMenuItem("Donor&nbsp;Profiles","location='../03_Donate/DonorProfileOverview.html'");
 
 
    mm_menu_0324095416_0.hideOnMouseOut=true;
