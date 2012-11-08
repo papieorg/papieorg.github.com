@@ -90,48 +90,6 @@ div#Main_Column_LeftBorder_Div {
         width: 526px;
 }
 
-/* moved to PiE_Style.css*/
-
-/*
-
-#sidebar_flushleft_list {
-        margin-left:.5em; 
-        padding-left:.5em;
-        }
-
-ul#sidebar_flushleft_list li {
-        font-size: 9pt;
-        list-style-type: disc;
-        text-align: left;
-}
-
-#sidebar_flushleft_link_list {
-        margin-left:.5em; 
-        padding-left:.5em;
-        }
-        
-ul#sidebar_flushleft_link_list li {
-        font-size: 9pt;
-        list-style-type: none;
-        text-align: left;
-}
-
-/* moved to PiE_Style.css*/
-
-
-/*
-div#RightColumn  a {
-        color: #E96F23;
-}
-
-.RightColumn_SubDiv {
-        border-top: 2px solid gray;
-        padding: 1.2em 0;
-}
-*/
-
-/* moved to PiE_Style.css*/
-
 
 #Sidebar_SubDiv {
         border-top: 2px solid gray;
