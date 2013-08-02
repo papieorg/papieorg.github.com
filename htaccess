@@ -1,0 +1,40 @@
+RewriteOptions inherit
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^donate$ "https\:\/\/papie\.org\/donate\/donate\-online" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^leadership$ "http\:\/\/papie\.org\/donate\/leadership\-circle\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^piegrants$ "http\:\/\/papie\.org\/schools\-of\-pausd\/teacher\-grants\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^donationform$ "http\:\/\/papie\.org\/wp\-content\/uploads\/2013\/07\/PiE\-Donation\-Form\-2013\-14\.pdf" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^businesspartners$ "http\:\/\/papie\.org\/donate\/business\-partners\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^newsletters$ "http\:\/\/papie\.org\/news\/newsletters\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^teacher_grant_docs\/budget$ "http\:\/\/papie\.org\/wp\-content\/uploads\/2013\/08\/Teacher_Grant_Budget_Form\.xls" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^teacherbudget$ "http\:\/\/papie\.org\/wp\-content\/uploads\/2013\/08\/Teacher_Grant_Budget_Form\.xls" [R=301,L]
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
